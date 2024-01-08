@@ -1,0 +1,85 @@
+[0.431s] Invoking command in '/home/chris/rostut/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/chris/rostut/src/examples/rclcpp/topics/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/home/chris/rostut/install/examples_rclcpp_minimal_subscriber
+[1.908s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.908s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.909s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[1.909s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.909s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.909s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.909s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.909s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.909s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.909s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.909s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.909s] -- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.909s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.909s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.909s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.909s] -- Configured cppcheck include dirs: 
+[1.910s] -- Configured cppcheck exclude dirs and/or files: 
+[1.910s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.910s] -- Configured cpplint exclude dirs and/or files: 
+[1.910s] -- Added test 'lint_cmake' to check CMake code style
+[1.910s] -- Added test 'uncrustify' to check C / C++ code style
+[1.910s] -- Configured uncrustify additional arguments: 
+[1.910s] -- Added test 'xmllint' to check XML markup files
+[1.910s] -- Configuring done
+[1.910s] -- Generating done
+[1.910s] -- Build files have been written to: /home/chris/rostut/build/examples_rclcpp_minimal_subscriber
+[1.933s] Invoked command in '/home/chris/rostut/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/chris/rostut/src/examples/rclcpp/topics/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/home/chris/rostut/install/examples_rclcpp_minimal_subscriber
+[1.933s] Invoking command in '/home/chris/rostut/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/chris/rostut/build/examples_rclcpp_minimal_subscriber -- -j20 -l20
+[1.941s] [35m[1mConsolidate compiler generated dependencies of target subscriber_member_function[0m
+[1.941s] [35m[1mConsolidate compiler generated dependencies of target subscriber_member_function_with_topic_statistics[0m
+[1.943s] [35m[1mConsolidate compiler generated dependencies of target subscriber_not_composable[0m
+[1.954s] [35m[1mConsolidate compiler generated dependencies of target subscriber_member_function_with_unique_network_flow_endpoints[0m
+[1.954s] [35m[1mConsolidate compiler generated dependencies of target wait_set_subscriber_library[0m
+[1.954s] [35m[1mConsolidate compiler generated dependencies of target wait_set_subscriber[0m
+[1.954s] [35m[1mConsolidate compiler generated dependencies of target static_wait_set_subscriber[0m
+[1.956s] [35m[1mConsolidate compiler generated dependencies of target subscriber_lambda[0m
+[1.960s] [  4%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[1.980s] [ 12%] Built target subscriber_member_function
+[1.980s] [ 16%] [32mBuilding CXX object CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o[0m
+[1.981s] [ 25%] Built target subscriber_member_function_with_topic_statistics
+[1.985s] [ 33%] Built target wait_set_subscriber
+[1.985s] [ 41%] Built target subscriber_lambda
+[1.985s] [ 50%] Built target subscriber_not_composable
+[1.986s] [ 66%] Built target wait_set_subscriber_library
+[1.987s] [ 75%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[1.989s] [35m[1mConsolidate compiler generated dependencies of target time_triggered_wait_set_subscriber[0m
+[1.990s] [ 83%] Built target static_wait_set_subscriber
+[2.003s] [ 91%] Built target time_triggered_wait_set_subscriber
+[7.766s] [ 95%] [32m[1mLinking CXX executable subscriber_content_filtering[0m
+[8.191s] [ 95%] Built target subscriber_content_filtering
+[8.527s] [100%] [32m[1mLinking CXX executable subscriber_member_function_with_type_adapter[0m
+[9.166s] [100%] Built target subscriber_member_function_with_type_adapter
+[9.176s] Invoked command in '/home/chris/rostut/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/chris/rostut/build/examples_rclcpp_minimal_subscriber -- -j20 -l20
+[9.223s] Invoking command in '/home/chris/rostut/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/chris/rostut/build/examples_rclcpp_minimal_subscriber
+[9.230s] -- Install configuration: ""
+[9.230s] -- Execute custom install script
+[9.231s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber
+[9.239s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber
+[9.247s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber
+[9.255s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so
+[9.264s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[9.272s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[9.280s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics
+[9.287s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter
+[9.295s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints
+[9.303s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[9.311s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering
+[9.320s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[9.328s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[9.336s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[9.343s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[9.351s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[9.359s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[9.367s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[9.375s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[9.383s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[9.390s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[9.398s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[9.405s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[9.413s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_minimal_subscriber
+[9.422s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[9.430s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[9.439s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[9.448s] Invoked command in '/home/chris/rostut/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/chris/rostut/build/examples_rclcpp_minimal_subscriber

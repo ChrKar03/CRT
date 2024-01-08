@@ -1,0 +1,33 @@
+[0.516s] Invoking command in '/home/chris/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/home/chris/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/chris/ros2_ws/install/examples_rclpy_minimal_service:/home/chris/ros2_ws/install/examples_rclpy_minimal_publisher:/home/chris/ros2_ws/install/examples_rclpy_minimal_client:/home/chris/ros2_ws/install/examples_rclpy_minimal_action_server:/home/chris/ros2_ws/install/examples_rclpy_minimal_action_client:/home/chris/ros2_ws/install/examples_rclpy_guard_conditions:/home/chris/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros2_ws/build/examples_rclcpp_cbg_executor -- -j20 -l20
+[3.262s] [35m[1mConsolidate compiler generated dependencies of target ping[0m
+[3.263s] [35m[1mConsolidate compiler generated dependencies of target pong[0m
+[3.263s] [35m[1mConsolidate compiler generated dependencies of target ping_pong[0m
+[3.263s] [ 30%] Built target pong
+[3.263s] [ 70%] Built target ping_pong
+[3.263s] [100%] Built target ping
+[3.285s] Invoked command in '/home/chris/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/home/chris/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/chris/ros2_ws/install/examples_rclpy_minimal_service:/home/chris/ros2_ws/install/examples_rclpy_minimal_publisher:/home/chris/ros2_ws/install/examples_rclpy_minimal_client:/home/chris/ros2_ws/install/examples_rclpy_minimal_action_server:/home/chris/ros2_ws/install/examples_rclpy_minimal_action_client:/home/chris/ros2_ws/install/examples_rclpy_guard_conditions:/home/chris/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros2_ws/build/examples_rclcpp_cbg_executor -- -j20 -l20
+[3.332s] Invoking command in '/home/chris/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/home/chris/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/chris/ros2_ws/install/examples_rclpy_minimal_service:/home/chris/ros2_ws/install/examples_rclpy_minimal_publisher:/home/chris/ros2_ws/install/examples_rclpy_minimal_client:/home/chris/ros2_ws/install/examples_rclpy_minimal_action_server:/home/chris/ros2_ws/install/examples_rclpy_minimal_action_client:/home/chris/ros2_ws/install/examples_rclpy_guard_conditions:/home/chris/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/chris/ros2_ws/build/examples_rclcpp_cbg_executor
+[3.431s] -- Install configuration: ""
+[3.432s] -- Execute custom install script
+[3.432s] -- Symlinking: /home/chris/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping
+[3.432s] -- Symlinking: /home/chris/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong
+[3.432s] -- Symlinking: /home/chris/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong
+[3.432s] -- Symlinking: /home/chris/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+[3.432s] -- Symlinking: /home/chris/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+[3.432s] -- Symlinking: /home/chris/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_cbg_executor
+[3.432s] -- Symlinking: /home/chris/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_cbg_executor
+[3.432s] -- Symlinking: /home/chris/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.sh
+[3.432s] -- Symlinking: /home/chris/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.dsv
+[3.432s] -- Symlinking: /home/chris/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.sh
+[3.432s] -- Symlinking: /home/chris/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.dsv
+[3.438s] -- Symlinking: /home/chris/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.bash
+[3.453s] -- Symlinking: /home/chris/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.sh
+[3.469s] -- Symlinking: /home/chris/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.zsh
+[3.482s] -- Symlinking: /home/chris/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.dsv
+[3.490s] -- Symlinking: /home/chris/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.dsv
+[3.504s] -- Symlinking: /home/chris/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/packages/examples_rclcpp_cbg_executor
+[3.525s] -- Symlinking: /home/chris/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.540s] -- Symlinking: /home/chris/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig.cmake
+[3.547s] -- Symlinking: /home/chris/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig-version.cmake
+[3.555s] -- Symlinking: /home/chris/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.xml
+[3.623s] Invoked command in '/home/chris/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/home/chris/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/chris/ros2_ws/install/examples_rclpy_minimal_service:/home/chris/ros2_ws/install/examples_rclpy_minimal_publisher:/home/chris/ros2_ws/install/examples_rclpy_minimal_client:/home/chris/ros2_ws/install/examples_rclpy_minimal_action_server:/home/chris/ros2_ws/install/examples_rclpy_minimal_action_client:/home/chris/ros2_ws/install/examples_rclpy_guard_conditions:/home/chris/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/chris/ros2_ws/build/examples_rclcpp_cbg_executor

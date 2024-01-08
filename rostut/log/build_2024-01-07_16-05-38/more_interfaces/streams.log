@@ -1,0 +1,246 @@
+[0.034s] Invoking command in '/home/chris/rostut/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/chris/rostut/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/chris/rostut/install/more_interfaces
+[0.064s] -- The C compiler identification is GNU 11.4.0
+[0.095s] -- The CXX compiler identification is GNU 11.4.0
+[0.098s] -- Detecting C compiler ABI info
+[0.132s] -- Detecting C compiler ABI info - done
+[0.136s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.136s] -- Detecting C compile features
+[0.137s] -- Detecting C compile features - done
+[0.138s] -- Detecting CXX compiler ABI info
+[0.179s] -- Detecting CXX compiler ABI info - done
+[0.183s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.183s] -- Detecting CXX compile features
+[0.183s] -- Detecting CXX compile features - done
+[0.185s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.298s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.359s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.363s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.368s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.397s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.420s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.471s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.474s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.528s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.543s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.570s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.577s] -- Looking for pthread.h
+[0.613s] -- Looking for pthread.h - found
+[0.613s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.650s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.650s] -- Found Threads: TRUE  
+[0.888s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.004s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.151s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.166s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.167s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.184s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.184s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.184s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.184s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.199s] -- Found PythonExtra: .so  
+[1.224s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.237s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.237s] -- Configured cppcheck include dirs: 
+[1.237s] -- Configured cppcheck exclude dirs and/or files: 
+[1.238s] -- Added test 'lint_cmake' to check CMake code style
+[1.238s] -- Added test 'uncrustify' to check C / C++ code style
+[1.239s] -- Configured uncrustify additional arguments: 
+[1.239s] -- Added test 'xmllint' to check XML markup files
+[1.240s] -- Configuring done
+[1.254s] -- Generating done
+[1.255s] -- Build files have been written to: /home/chris/rostut/build/more_interfaces
+[1.263s] Invoked command in '/home/chris/rostut/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/chris/rostut/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/chris/rostut/install/more_interfaces
+[1.263s] Invoking command in '/home/chris/rostut/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/chris/rostut/build/more_interfaces -- -j20 -l20
+[1.282s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.287s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.291s] [  6%] Built target ament_cmake_python_copy_more_interfaces
+[1.424s] running egg_info
+[1.424s] creating more_interfaces.egg-info
+[1.424s] writing more_interfaces.egg-info/PKG-INFO
+[1.424s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[1.424s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[1.425s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[1.425s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[1.426s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[1.426s] [  6%] Built target more_interfaces__cpp
+[1.428s] [  9%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c.o[0m
+[1.431s] [ 18%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.431s] [ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.431s] [ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.443s] [ 18%] Built target ament_cmake_python_build_more_interfaces_egg
+[1.455s] [ 21%] [32m[1mLinking C shared library libmore_interfaces__rosidl_generator_c.so[0m
+[1.475s] [ 21%] Built target more_interfaces__rosidl_generator_c
+[1.480s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.480s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.481s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.569s] [ 33%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[1.576s] [ 36%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.o[0m
+[1.580s] [ 39%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp.o[0m
+[1.621s] [ 42%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[1.630s] [ 45%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/msg/detail/address_book__type_support.c.o[0m
+[1.631s] [ 48%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/address_book__type_support_c.cpp.o[0m
+[1.643s] [ 51%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_c.so[0m
+[1.648s] [ 54%] [32m[1mLinking C shared library libmore_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.663s] [ 54%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[1.665s] [ 54%] Built target more_interfaces__rosidl_typesupport_c
+[1.705s] [ 57%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_cpp.so[0m
+[1.726s] [ 57%] Built target more_interfaces__rosidl_typesupport_cpp
+[1.738s] [ 60%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[1.769s] [ 63%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.778s] [ 66%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.804s] [ 69%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.804s] [ 69%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[1.818s] [ 69%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.842s] [ 69%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[1.852s] [ 69%] Built target more_interfaces
+[1.861s] [ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.022s] [ 72%] Built target more_interfaces__py
+[2.032s] [ 75%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_py.dir/rosidl_generator_py/more_interfaces/msg/_address_book_s.c.o[0m
+[2.082s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/libmore_interfaces__rosidl_generator_py.so[0m
+[2.103s] [ 78%] Built target more_interfaces__rosidl_generator_py
+[2.113s] [ 84%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.113s] [ 84%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.113s] [ 87%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.160s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.160s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.160s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.177s] [ 96%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.177s] [ 96%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[2.177s] [ 96%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.868s] [100%] [32m[1mLinking CXX executable publish_address_book[0m
+[3.957s] [100%] Built target publish_address_book
+[3.967s] Invoked command in '/home/chris/rostut/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/chris/rostut/build/more_interfaces -- -j20 -l20
+[4.021s] Invoking command in '/home/chris/rostut/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/chris/rostut/build/more_interfaces
+[4.029s] -- Install configuration: ""
+[4.029s] -- Installing: /home/chris/rostut/install/more_interfaces/lib/more_interfaces/publish_address_book
+[4.030s] -- Set runtime path of "/home/chris/rostut/install/more_interfaces/lib/more_interfaces/publish_address_book" to ""
+[4.030s] -- Installing: /home/chris/rostut/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces
+[4.030s] -- Installing: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces
+[4.030s] -- Installing: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[4.030s] -- Installing: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[4.031s] -- Installing: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.h
+[4.031s] -- Installing: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.h
+[4.031s] -- Installing: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.h
+[4.031s] -- Installing: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.c
+[4.031s] -- Installing: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.031s] -- Installing: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.h
+[4.031s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/environment/library_path.sh
+[4.031s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/environment/library_path.dsv
+[4.031s] -- Installing: /home/chris/rostut/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so
+[4.031s] -- Set runtime path of "/home/chris/rostut/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so" to ""
+[4.031s] -- Up-to-date: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces
+[4.031s] -- Up-to-date: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[4.032s] -- Installing: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.032s] -- Up-to-date: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[4.032s] -- Installing: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h
+[4.032s] -- Installing: /home/chris/rostut/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.032s] -- Set runtime path of "/home/chris/rostut/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.032s] -- Up-to-date: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces
+[4.032s] -- Up-to-date: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[4.032s] -- Up-to-date: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[4.032s] -- Installing: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c
+[4.032s] -- Installing: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h
+[4.032s] -- Installing: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.032s] -- Installing: /home/chris/rostut/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so
+[4.032s] -- Set runtime path of "/home/chris/rostut/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.032s] -- Installing: /home/chris/rostut/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so
+[4.032s] -- Set runtime path of "/home/chris/rostut/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so" to ""
+[4.032s] -- Up-to-date: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces
+[4.032s] -- Up-to-date: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[4.032s] -- Installing: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.hpp
+[4.032s] -- Up-to-date: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[4.032s] -- Installing: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__traits.hpp
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__builder.hpp
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.hpp
+[4.033s] -- Up-to-date: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces
+[4.033s] -- Up-to-date: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.033s] -- Up-to-date: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/dds_fastrtps
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.033s] -- Set runtime path of "/home/chris/rostut/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.033s] -- Up-to-date: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces
+[4.033s] -- Up-to-date: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[4.033s] -- Up-to-date: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.cpp
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.033s] -- Set runtime path of "/home/chris/rostut/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so
+[4.033s] -- Set runtime path of "/home/chris/rostut/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/libmore_interfaces__rosidl_generator_py.so
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/__init__.py
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book.py
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/__init__.py
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book_s.c
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.033s] -- Installing: /home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.055s] Listing '/home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces'...
+[4.055s] Compiling '/home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/__init__.py'...
+[4.055s] Listing '/home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg'...
+[4.055s] Compiling '/home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/__init__.py'...
+[4.055s] Compiling '/home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book.py'...
+[4.058s] -- Installing: /home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.058s] -- Set runtime path of "/home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.058s] -- Installing: /home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.058s] -- Set runtime path of "/home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.058s] -- Installing: /home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.058s] -- Set runtime path of "/home/chris/rostut/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.058s] -- Installing: /home/chris/rostut/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so
+[4.058s] -- Set runtime path of "/home/chris/rostut/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so" to ""
+[4.058s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl
+[4.058s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg
+[4.058s] -- Installing: /home/chris/rostut/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+[4.058s] -- Installing: /home/chris/rostut/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+[4.058s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+[4.058s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+[4.058s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/environment/path.sh
+[4.058s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/environment/path.dsv
+[4.058s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/local_setup.bash
+[4.058s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/local_setup.sh
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/local_setup.zsh
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/local_setup.dsv
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/package.dsv
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport.cmake
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cppExport.cmake
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport.cmake
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+[4.059s] -- Installing: /home/chris/rostut/install/more_interfaces/share/more_interfaces/package.xml
+[4.061s] Invoked command in '/home/chris/rostut/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/chris/rostut/build/more_interfaces

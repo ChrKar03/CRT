@@ -1,0 +1,28 @@
+[1.489s] Invoking command in '/home/chris/rostut/src/examples/rclpy/executors': PYTHONPATH=/home/chris/rostut/build/examples_rclpy_executors/prefix_override:/home/chris/rostut/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/chris/rostut/build/examples_rclpy_executors/build install --record /home/chris/rostut/build/examples_rclpy_executors/install.log --single-version-externally-managed
+[1.807s] running egg_info
+[1.807s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[1.808s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[1.808s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[1.808s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[1.808s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[1.808s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[1.808s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[1.808s] running build
+[1.808s] running build_py
+[1.808s] running install
+[1.808s] running install_lib
+[1.808s] running install_data
+[1.808s] running install_egg_info
+[1.808s] removing '/home/chris/rostut/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.15.1-py3.10.egg-info' (and everything under it)
+[1.808s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/chris/rostut/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.15.1-py3.10.egg-info
+[1.808s] running install_scripts
+[1.808s] Installing callback_group script to /home/chris/rostut/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.808s] Installing composed script to /home/chris/rostut/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.808s] Installing custom_callback_group script to /home/chris/rostut/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.808s] Installing custom_executor script to /home/chris/rostut/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.808s] Installing listener script to /home/chris/rostut/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.809s] Installing talker script to /home/chris/rostut/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.809s] writing list of installed files to '/home/chris/rostut/build/examples_rclpy_executors/install.log'
+[1.809s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.809s]   warnings.warn(
+[2.748s] Invoked command in '/home/chris/rostut/src/examples/rclpy/executors' returned '0': PYTHONPATH=/home/chris/rostut/build/examples_rclpy_executors/prefix_override:/home/chris/rostut/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/chris/rostut/build/examples_rclpy_executors/build install --record /home/chris/rostut/build/examples_rclpy_executors/install.log --single-version-externally-managed

@@ -1,0 +1,211 @@
+[0.036s] Invoking command in '/home/chris/ros2_ws/build/logging_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/chris/ros2_ws/install/launch_testing_examples:/home/chris/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/chris/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/chris/ros2_ws/install/examples_rclpy_minimal_service:/home/chris/ros2_ws/install/examples_rclpy_minimal_publisher:/home/chris/ros2_ws/install/examples_rclpy_minimal_client:/home/chris/ros2_ws/install/examples_rclpy_minimal_action_server:/home/chris/ros2_ws/install/examples_rclpy_minimal_action_client:/home/chris/ros2_ws/install/examples_rclpy_guard_conditions:/home/chris/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros2_ws/build/logging_demo -- -j20 -l20
+[0.058s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.063s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.064s] [  8%] [32mBuilding CXX object CMakeFiles/logger_usage_component.dir/src/logger_usage_component.cpp.o[0m
+[0.068s] [  8%] Built target ament_cmake_python_copy_logging_demo
+[0.209s] running egg_info
+[0.210s] creating logging_demo.egg-info
+[0.210s] writing logging_demo.egg-info/PKG-INFO
+[0.210s] writing dependency_links to logging_demo.egg-info/dependency_links.txt
+[0.210s] writing top-level names to logging_demo.egg-info/top_level.txt
+[0.210s] writing manifest file 'logging_demo.egg-info/SOURCES.txt'
+[0.211s] reading manifest file 'logging_demo.egg-info/SOURCES.txt'
+[0.211s] writing manifest file 'logging_demo.egg-info/SOURCES.txt'
+[0.217s] [  8%] Built target logging_demo__cpp
+[0.220s] [ 10%] [32mBuilding C object CMakeFiles/logging_demo__rosidl_generator_c.dir/rosidl_generator_c/logging_demo/srv/detail/config_logger__functions.c.o[0m
+[0.223s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.223s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.223s] [ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.229s] [ 18%] Built target ament_cmake_python_build_logging_demo_egg
+[0.254s] [ 21%] [32m[1mLinking C shared library liblogging_demo__rosidl_generator_c.so[0m
+[0.277s] [ 21%] Built target logging_demo__rosidl_generator_c
+[0.283s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.283s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[0.286s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.375s] [ 32%] [32mBuilding CXX object CMakeFiles/logging_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/logging_demo/srv/config_logger__type_support.cpp.o[0m
+[0.386s] [ 35%] [32mBuilding CXX object CMakeFiles/logging_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/logging_demo/srv/detail/config_logger__type_support.cpp.o[0m
+[0.394s] [ 37%] [32mBuilding CXX object CMakeFiles/logging_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/logging_demo/srv/detail/dds_fastrtps/config_logger__type_support.cpp.o[0m
+[0.455s] [ 43%] [32mBuilding CXX object CMakeFiles/logging_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/logging_demo/srv/detail/config_logger__type_support_c.cpp.o[0m
+[0.455s] [ 43%] [32mBuilding C object CMakeFiles/logging_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/logging_demo/srv/detail/config_logger__type_support.c.o[0m
+[0.483s] [ 45%] [32m[1mLinking C shared library liblogging_demo__rosidl_typesupport_introspection_c.so[0m
+[0.502s] [ 45%] Built target logging_demo__rosidl_typesupport_introspection_c
+[0.519s] [ 48%] [32m[1mLinking CXX shared library liblogging_demo__rosidl_typesupport_cpp.so[0m
+[0.525s] [ 51%] [32mBuilding CXX object CMakeFiles/logging_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/logging_demo/srv/config_logger__type_support.cpp.o[0m
+[0.545s] [ 54%] [32m[1mLinking CXX shared library liblogging_demo__rosidl_typesupport_c.so[0m
+[0.545s] [ 54%] Built target logging_demo__rosidl_typesupport_cpp
+[0.556s] [ 56%] [32mBuilding CXX object CMakeFiles/logger_config_component.dir/src/logger_config_component.cpp.o[0m
+[0.569s] [ 56%] Built target logging_demo__rosidl_typesupport_c
+[0.595s] [ 59%] [32m[1mLinking CXX shared library liblogging_demo__rosidl_typesupport_introspection_cpp.so[0m
+[0.615s] [ 62%] [32m[1mLinking CXX shared library liblogging_demo__rosidl_typesupport_fastrtps_cpp.so[0m
+[0.633s] [ 62%] Built target logging_demo__rosidl_typesupport_introspection_cpp
+[0.644s] [ 64%] [32m[1mLinking CXX shared library liblogging_demo__rosidl_typesupport_fastrtps_c.so[0m
+[0.657s] [ 64%] Built target logging_demo__rosidl_typesupport_fastrtps_cpp
+[0.685s] [ 64%] Built target logging_demo__rosidl_typesupport_fastrtps_c
+[0.696s] [ 64%] Built target logging_demo
+[0.707s] [ 67%] [34m[1mGenerating Python code for ROS interfaces[0m
+[0.901s] [ 67%] Built target logging_demo__py
+[0.912s] [ 70%] [32mBuilding C object CMakeFiles/logging_demo__rosidl_generator_py.dir/rosidl_generator_py/logging_demo/srv/_config_logger_s.c.o[0m
+[0.968s] [ 72%] [32m[1mLinking C shared library rosidl_generator_py/logging_demo/liblogging_demo__rosidl_generator_py.so[0m
+[0.990s] [ 72%] Built target logging_demo__rosidl_generator_py
+[1.003s] [ 81%] [32mBuilding C object CMakeFiles/logging_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/logging_demo/_logging_demo_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.003s] [ 81%] [32mBuilding C object CMakeFiles/logging_demo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/logging_demo/_logging_demo_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.003s] [ 81%] [32mBuilding C object CMakeFiles/logging_demo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/logging_demo/_logging_demo_s.ep.rosidl_typesupport_c.c.o[0m
+[1.055s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/logging_demo/logging_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.055s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/logging_demo/logging_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.055s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/logging_demo/logging_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.074s] [ 89%] Built target logging_demo__rosidl_typesupport_introspection_c__pyext
+[1.074s] [ 89%] Built target logging_demo__rosidl_typesupport_fastrtps_c__pyext
+[1.074s] [ 89%] Built target logging_demo__rosidl_typesupport_c__pyext
+[2.335s] [ 91%] [32m[1mLinking CXX shared library liblogger_config_component.so[0m
+[2.408s] [ 91%] Built target logger_config_component
+[2.457s] [ 94%] [32m[1mLinking CXX shared library liblogger_usage_component.so[0m
+[2.556s] [ 94%] Built target logger_usage_component
+[2.566s] [ 97%] [32mBuilding CXX object CMakeFiles/logging_demo_main.dir/src/logging_demo_main.cpp.o[0m
+[3.949s] [100%] [32m[1mLinking CXX executable logging_demo_main[0m
+[4.029s] [100%] Built target logging_demo_main
+[4.036s] Invoked command in '/home/chris/ros2_ws/build/logging_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/chris/ros2_ws/install/launch_testing_examples:/home/chris/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/chris/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/chris/ros2_ws/install/examples_rclpy_minimal_service:/home/chris/ros2_ws/install/examples_rclpy_minimal_publisher:/home/chris/ros2_ws/install/examples_rclpy_minimal_client:/home/chris/ros2_ws/install/examples_rclpy_minimal_action_server:/home/chris/ros2_ws/install/examples_rclpy_minimal_action_client:/home/chris/ros2_ws/install/examples_rclpy_guard_conditions:/home/chris/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros2_ws/build/logging_demo -- -j20 -l20
+[4.086s] Invoking command in '/home/chris/ros2_ws/build/logging_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/chris/ros2_ws/install/launch_testing_examples:/home/chris/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/chris/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/chris/ros2_ws/install/examples_rclpy_minimal_service:/home/chris/ros2_ws/install/examples_rclpy_minimal_publisher:/home/chris/ros2_ws/install/examples_rclpy_minimal_client:/home/chris/ros2_ws/install/examples_rclpy_minimal_action_server:/home/chris/ros2_ws/install/examples_rclpy_minimal_action_client:/home/chris/ros2_ws/install/examples_rclpy_guard_conditions:/home/chris/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/chris/ros2_ws/build/logging_demo
+[4.092s] -- Install configuration: ""
+[4.092s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/ament_index/resource_index/rosidl_interfaces/logging_demo
+[4.092s] -- Installing: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo
+[4.092s] -- Installing: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv
+[4.092s] -- Installing: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv/config_logger.h
+[4.092s] -- Installing: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv/detail
+[4.092s] -- Installing: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv/detail/config_logger__type_support.h
+[4.092s] -- Installing: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv/detail/config_logger__functions.h
+[4.092s] -- Installing: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv/detail/config_logger__struct.h
+[4.092s] -- Installing: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv/detail/config_logger__functions.c
+[4.092s] -- Installing: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/msg
+[4.092s] -- Installing: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/msg/rosidl_generator_c__visibility_control.h
+[4.093s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/environment/library_path.sh
+[4.093s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/environment/library_path.dsv
+[4.093s] -- Installing: /home/chris/ros2_ws/install/logging_demo/lib/liblogging_demo__rosidl_generator_c.so
+[4.093s] -- Set runtime path of "/home/chris/ros2_ws/install/logging_demo/lib/liblogging_demo__rosidl_generator_c.so" to ""
+[4.093s] -- Up-to-date: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo
+[4.093s] -- Up-to-date: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv
+[4.093s] -- Up-to-date: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv/detail
+[4.093s] -- Installing: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv/detail/config_logger__rosidl_typesupport_fastrtps_c.h
+[4.093s] -- Up-to-date: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/msg
+[4.093s] -- Installing: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.093s] -- Installing: /home/chris/ros2_ws/install/logging_demo/lib/liblogging_demo__rosidl_typesupport_fastrtps_c.so
+[4.093s] -- Set runtime path of "/home/chris/ros2_ws/install/logging_demo/lib/liblogging_demo__rosidl_typesupport_fastrtps_c.so" to ""
+[4.093s] -- Up-to-date: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo
+[4.093s] -- Up-to-date: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv
+[4.093s] -- Up-to-date: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv/detail
+[4.093s] -- Installing: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv/detail/config_logger__traits.hpp
+[4.093s] -- Installing: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv/detail/config_logger__builder.hpp
+[4.093s] -- Installing: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv/detail/config_logger__struct.hpp
+[4.093s] -- Installing: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv/config_logger.hpp
+[4.093s] -- Up-to-date: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo
+[4.093s] -- Up-to-date: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv
+[4.093s] -- Up-to-date: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv/detail
+[4.093s] -- Installing: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv/detail/dds_fastrtps
+[4.093s] -- Installing: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv/detail/config_logger__rosidl_typesupport_fastrtps_cpp.hpp
+[4.093s] -- Up-to-date: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/msg
+[4.094s] -- Installing: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.094s] -- Installing: /home/chris/ros2_ws/install/logging_demo/lib/liblogging_demo__rosidl_typesupport_fastrtps_cpp.so
+[4.094s] -- Set runtime path of "/home/chris/ros2_ws/install/logging_demo/lib/liblogging_demo__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.094s] -- Up-to-date: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo
+[4.094s] -- Up-to-date: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv
+[4.094s] -- Up-to-date: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv/detail
+[4.094s] -- Installing: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv/detail/config_logger__type_support.c
+[4.094s] -- Installing: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv/detail/config_logger__rosidl_typesupport_introspection_c.h
+[4.094s] -- Up-to-date: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/msg
+[4.094s] -- Installing: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.094s] -- Installing: /home/chris/ros2_ws/install/logging_demo/lib/liblogging_demo__rosidl_typesupport_introspection_c.so
+[4.094s] -- Set runtime path of "/home/chris/ros2_ws/install/logging_demo/lib/liblogging_demo__rosidl_typesupport_introspection_c.so" to ""
+[4.094s] -- Installing: /home/chris/ros2_ws/install/logging_demo/lib/liblogging_demo__rosidl_typesupport_c.so
+[4.094s] -- Set runtime path of "/home/chris/ros2_ws/install/logging_demo/lib/liblogging_demo__rosidl_typesupport_c.so" to ""
+[4.094s] -- Up-to-date: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo
+[4.094s] -- Up-to-date: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv
+[4.094s] -- Up-to-date: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv/detail
+[4.094s] -- Installing: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv/detail/config_logger__rosidl_typesupport_introspection_cpp.hpp
+[4.094s] -- Installing: /home/chris/ros2_ws/install/logging_demo/include/logging_demo/logging_demo/srv/detail/config_logger__type_support.cpp
+[4.094s] -- Installing: /home/chris/ros2_ws/install/logging_demo/lib/liblogging_demo__rosidl_typesupport_introspection_cpp.so
+[4.094s] -- Set runtime path of "/home/chris/ros2_ws/install/logging_demo/lib/liblogging_demo__rosidl_typesupport_introspection_cpp.so" to ""
+[4.094s] -- Installing: /home/chris/ros2_ws/install/logging_demo/lib/liblogging_demo__rosidl_typesupport_cpp.so
+[4.094s] -- Set runtime path of "/home/chris/ros2_ws/install/logging_demo/lib/liblogging_demo__rosidl_typesupport_cpp.so" to ""
+[4.094s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/environment/pythonpath.sh
+[4.094s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/environment/pythonpath.dsv
+[4.094s] -- Installing: /home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo-0.32.1-py3.10.egg-info
+[4.094s] -- Installing: /home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo-0.32.1-py3.10.egg-info/dependency_links.txt
+[4.094s] -- Installing: /home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo-0.32.1-py3.10.egg-info/PKG-INFO
+[4.094s] -- Installing: /home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo-0.32.1-py3.10.egg-info/top_level.txt
+[4.094s] -- Installing: /home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo-0.32.1-py3.10.egg-info/SOURCES.txt
+[4.094s] -- Installing: /home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo
+[4.094s] -- Installing: /home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo/_logging_demo_s.ep.rosidl_typesupport_c.c
+[4.095s] -- Installing: /home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo/liblogging_demo__rosidl_generator_py.so
+[4.095s] -- Installing: /home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo/srv
+[4.095s] -- Installing: /home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo/srv/_config_logger.py
+[4.095s] -- Installing: /home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo/srv/__init__.py
+[4.095s] -- Installing: /home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo/srv/_config_logger_s.c
+[4.095s] -- Installing: /home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo/_logging_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.095s] -- Installing: /home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo/__init__.py
+[4.095s] -- Installing: /home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo/logging_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.095s] -- Installing: /home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo/logging_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.095s] -- Installing: /home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo/_logging_demo_s.ep.rosidl_typesupport_introspection_c.c
+[4.095s] -- Installing: /home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo/logging_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.119s] Listing '/home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo'...
+[4.119s] Compiling '/home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo/__init__.py'...
+[4.119s] Listing '/home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo/srv'...
+[4.119s] Compiling '/home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo/srv/__init__.py'...
+[4.119s] Compiling '/home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo/srv/_config_logger.py'...
+[4.121s] -- Installing: /home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo/logging_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.121s] -- Set runtime path of "/home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo/logging_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.121s] -- Installing: /home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo/logging_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.121s] -- Set runtime path of "/home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo/logging_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.122s] -- Installing: /home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo/logging_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.122s] -- Set runtime path of "/home/chris/ros2_ws/install/logging_demo/local/lib/python3.10/dist-packages/logging_demo/logging_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.122s] -- Installing: /home/chris/ros2_ws/install/logging_demo/lib/liblogging_demo__rosidl_generator_py.so
+[4.122s] -- Set runtime path of "/home/chris/ros2_ws/install/logging_demo/lib/liblogging_demo__rosidl_generator_py.so" to ""
+[4.122s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/srv/ConfigLogger.idl
+[4.122s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/srv/ConfigLogger.srv
+[4.122s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/srv/ConfigLogger_Request.msg
+[4.122s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/srv/ConfigLogger_Response.msg
+[4.122s] -- Installing: /home/chris/ros2_ws/install/logging_demo/lib/liblogger_config_component.so
+[4.122s] -- Set runtime path of "/home/chris/ros2_ws/install/logging_demo/lib/liblogger_config_component.so" to ""
+[4.122s] -- Installing: /home/chris/ros2_ws/install/logging_demo/lib/liblogger_usage_component.so
+[4.123s] -- Set runtime path of "/home/chris/ros2_ws/install/logging_demo/lib/liblogger_usage_component.so" to ""
+[4.123s] -- Installing: /home/chris/ros2_ws/install/logging_demo/lib/logging_demo/logging_demo_main
+[4.123s] -- Set runtime path of "/home/chris/ros2_ws/install/logging_demo/lib/logging_demo/logging_demo_main" to ""
+[4.123s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/ament_index/resource_index/package_run_dependencies/logging_demo
+[4.124s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/ament_index/resource_index/parent_prefix_path/logging_demo
+[4.124s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/environment/ament_prefix_path.sh
+[4.124s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/environment/ament_prefix_path.dsv
+[4.124s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/environment/path.sh
+[4.124s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/environment/path.dsv
+[4.124s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/local_setup.bash
+[4.124s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/local_setup.sh
+[4.124s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/local_setup.zsh
+[4.124s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/local_setup.dsv
+[4.124s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/package.dsv
+[4.124s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/ament_index/resource_index/packages/logging_demo
+[4.124s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/cmake/export_logging_demo__rosidl_generator_cExport.cmake
+[4.124s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/cmake/export_logging_demo__rosidl_generator_cExport-noconfig.cmake
+[4.124s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/cmake/export_logging_demo__rosidl_typesupport_fastrtps_cExport.cmake
+[4.124s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/cmake/export_logging_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.124s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/cmake/export_logging_demo__rosidl_generator_cppExport.cmake
+[4.124s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/cmake/export_logging_demo__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.124s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/cmake/export_logging_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.124s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/cmake/logging_demo__rosidl_typesupport_introspection_cExport.cmake
+[4.124s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/cmake/logging_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.124s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/cmake/logging_demo__rosidl_typesupport_cExport.cmake
+[4.124s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/cmake/logging_demo__rosidl_typesupport_cExport-noconfig.cmake
+[4.125s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/cmake/logging_demo__rosidl_typesupport_introspection_cppExport.cmake
+[4.125s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/cmake/logging_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.125s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/cmake/logging_demo__rosidl_typesupport_cppExport.cmake
+[4.125s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/cmake/logging_demo__rosidl_typesupport_cppExport-noconfig.cmake
+[4.125s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/cmake/export_logging_demo__rosidl_generator_pyExport.cmake
+[4.125s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/cmake/export_logging_demo__rosidl_generator_pyExport-noconfig.cmake
+[4.125s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/ament_index/resource_index/rclcpp_components/logging_demo
+[4.125s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/cmake/rosidl_cmake-extras.cmake
+[4.125s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.125s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/cmake/ament_cmake_export_libraries-extras.cmake
+[4.125s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/cmake/ament_cmake_export_targets-extras.cmake
+[4.125s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.125s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.125s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.125s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/cmake/logging_demoConfig.cmake
+[4.125s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/cmake/logging_demoConfig-version.cmake
+[4.125s] -- Installing: /home/chris/ros2_ws/install/logging_demo/share/logging_demo/package.xml
+[4.126s] Invoked command in '/home/chris/ros2_ws/build/logging_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/chris/ros2_ws/install/launch_testing_examples:/home/chris/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/chris/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/chris/ros2_ws/install/examples_rclpy_minimal_service:/home/chris/ros2_ws/install/examples_rclpy_minimal_publisher:/home/chris/ros2_ws/install/examples_rclpy_minimal_client:/home/chris/ros2_ws/install/examples_rclpy_minimal_action_server:/home/chris/ros2_ws/install/examples_rclpy_minimal_action_client:/home/chris/ros2_ws/install/examples_rclpy_guard_conditions:/home/chris/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/chris/ros2_ws/build/logging_demo

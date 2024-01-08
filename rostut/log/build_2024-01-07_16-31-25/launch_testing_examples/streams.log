@@ -1,0 +1,22 @@
+[1.926s] Invoking command in '/home/chris/rostut/src/examples/launch_testing/launch_testing_examples': PYTHONPATH=/home/chris/rostut/build/launch_testing_examples/prefix_override:/home/chris/rostut/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/launch_testing_examples build --build-base /home/chris/rostut/build/launch_testing_examples/build install --record /home/chris/rostut/build/launch_testing_examples/install.log --single-version-externally-managed
+[2.114s] running egg_info
+[2.114s] writing ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/PKG-INFO
+[2.114s] writing dependency_links to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/dependency_links.txt
+[2.115s] writing entry points to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/entry_points.txt
+[2.115s] writing requirements to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/requires.txt
+[2.115s] writing top-level names to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/top_level.txt
+[2.116s] reading manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[2.116s] writing manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[2.116s] running build
+[2.116s] running build_py
+[2.116s] running install
+[2.117s] running install_lib
+[2.117s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.117s]   warnings.warn(
+[2.118s] running install_data
+[2.120s] running install_egg_info
+[2.120s] removing '/home/chris/rostut/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples-0.15.1-py3.10.egg-info' (and everything under it)
+[2.120s] Copying ../../../../build/launch_testing_examples/launch_testing_examples.egg-info to /home/chris/rostut/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples-0.15.1-py3.10.egg-info
+[2.120s] running install_scripts
+[2.134s] writing list of installed files to '/home/chris/rostut/build/launch_testing_examples/install.log'
+[2.260s] Invoked command in '/home/chris/rostut/src/examples/launch_testing/launch_testing_examples' returned '0': PYTHONPATH=/home/chris/rostut/build/launch_testing_examples/prefix_override:/home/chris/rostut/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/launch_testing_examples build --build-base /home/chris/rostut/build/launch_testing_examples/build install --record /home/chris/rostut/build/launch_testing_examples/install.log --single-version-externally-managed

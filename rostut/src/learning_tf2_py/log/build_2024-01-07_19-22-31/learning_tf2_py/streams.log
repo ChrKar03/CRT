@@ -1,0 +1,40 @@
+[0.377s] Invoking command in '/home/chris/rostut/src/learning_tf2_py': PYTHONPATH=/home/chris/rostut/src/learning_tf2_py/build/learning_tf2_py/prefix_override:/home/chris/rostut/src/learning_tf2_py/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/learning_tf2_py build --build-base /home/chris/rostut/src/learning_tf2_py/build/learning_tf2_py/build install --record /home/chris/rostut/src/learning_tf2_py/build/learning_tf2_py/install.log --single-version-externally-managed
+[0.501s] running egg_info
+[0.501s] creating build/learning_tf2_py/learning_tf2_py.egg-info
+[0.501s] writing build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+[0.501s] writing dependency_links to build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+[0.501s] writing entry points to build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt
+[0.501s] writing requirements to build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+[0.501s] writing top-level names to build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+[0.502s] writing manifest file 'build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.502s] reading manifest file 'build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.502s] adding license file 'LICENSE'
+[0.503s] writing manifest file 'build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.503s] running build
+[0.503s] running build_py
+[0.503s] creating /home/chris/rostut/src/learning_tf2_py/build/learning_tf2_py/build
+[0.503s] creating /home/chris/rostut/src/learning_tf2_py/build/learning_tf2_py/build/lib
+[0.503s] creating /home/chris/rostut/src/learning_tf2_py/build/learning_tf2_py/build/lib/learning_tf2_py
+[0.503s] copying learning_tf2_py/static_turtle_tf2_broadcaster.py -> /home/chris/rostut/src/learning_tf2_py/build/learning_tf2_py/build/lib/learning_tf2_py
+[0.503s] copying learning_tf2_py/__init__.py -> /home/chris/rostut/src/learning_tf2_py/build/learning_tf2_py/build/lib/learning_tf2_py
+[0.503s] running install
+[0.503s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.503s]   warnings.warn(
+[0.503s] running install_lib
+[0.503s] creating /home/chris/rostut/src/learning_tf2_py/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+[0.503s] copying /home/chris/rostut/src/learning_tf2_py/build/learning_tf2_py/build/lib/learning_tf2_py/static_turtle_tf2_broadcaster.py -> /home/chris/rostut/src/learning_tf2_py/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+[0.503s] copying /home/chris/rostut/src/learning_tf2_py/build/learning_tf2_py/build/lib/learning_tf2_py/__init__.py -> /home/chris/rostut/src/learning_tf2_py/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+[0.504s] byte-compiling /home/chris/rostut/src/learning_tf2_py/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py/static_turtle_tf2_broadcaster.py to static_turtle_tf2_broadcaster.cpython-310.pyc
+[0.504s] byte-compiling /home/chris/rostut/src/learning_tf2_py/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py/__init__.py to __init__.cpython-310.pyc
+[0.504s] running install_data
+[0.505s] creating /home/chris/rostut/src/learning_tf2_py/install/learning_tf2_py/share/ament_index
+[0.505s] creating /home/chris/rostut/src/learning_tf2_py/install/learning_tf2_py/share/ament_index/resource_index
+[0.505s] creating /home/chris/rostut/src/learning_tf2_py/install/learning_tf2_py/share/ament_index/resource_index/packages
+[0.505s] copying resource/learning_tf2_py -> /home/chris/rostut/src/learning_tf2_py/install/learning_tf2_py/share/ament_index/resource_index/packages
+[0.505s] copying package.xml -> /home/chris/rostut/src/learning_tf2_py/install/learning_tf2_py/share/learning_tf2_py
+[0.505s] running install_egg_info
+[0.506s] Copying build/learning_tf2_py/learning_tf2_py.egg-info to /home/chris/rostut/src/learning_tf2_py/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py-0.0.0-py3.10.egg-info
+[0.506s] running install_scripts
+[0.518s] Installing static_turtle_tf2_broadcaster script to /home/chris/rostut/src/learning_tf2_py/install/learning_tf2_py/lib/learning_tf2_py
+[0.518s] writing list of installed files to '/home/chris/rostut/src/learning_tf2_py/build/learning_tf2_py/install.log'
+[0.530s] Invoked command in '/home/chris/rostut/src/learning_tf2_py' returned '0': PYTHONPATH=/home/chris/rostut/src/learning_tf2_py/build/learning_tf2_py/prefix_override:/home/chris/rostut/src/learning_tf2_py/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/learning_tf2_py build --build-base /home/chris/rostut/src/learning_tf2_py/build/learning_tf2_py/build install --record /home/chris/rostut/src/learning_tf2_py/build/learning_tf2_py/install.log --single-version-externally-managed

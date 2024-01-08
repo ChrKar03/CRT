@@ -1,0 +1,29 @@
+[3.179s] Invoking command in '/home/chris/rostut/build/examples_rclpy_minimal_service': PYTHONPATH=/home/chris/rostut/build/examples_rclpy_minimal_service/prefix_override:/home/chris/rostut/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/chris/rostut/build/examples_rclpy_minimal_service/build --no-deps install_data
+[77.935s] running develop
+[77.944s] running egg_info
+[77.944s] creating examples_rclpy_minimal_service.egg-info
+[77.944s] writing examples_rclpy_minimal_service.egg-info/PKG-INFO
+[77.945s] writing dependency_links to examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[77.945s] writing entry points to examples_rclpy_minimal_service.egg-info/entry_points.txt
+[77.945s] writing requirements to examples_rclpy_minimal_service.egg-info/requires.txt
+[77.945s] writing top-level names to examples_rclpy_minimal_service.egg-info/top_level.txt
+[77.945s] writing manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[77.945s] reading manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[77.945s] writing manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[77.945s] running build_ext
+[77.945s] Creating /home/chris/rostut/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples-rclpy-minimal-service.egg-link (link to .)
+[77.945s] Installing service script to /home/chris/rostut/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[77.945s] Installing service_member_function script to /home/chris/rostut/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[77.945s] 
+[77.945s] Installed /home/chris/rostut/build/examples_rclpy_minimal_service
+[77.945s] running install_data
+[77.945s] creating /home/chris/rostut/install/examples_rclpy_minimal_service/share/ament_index
+[77.945s] creating /home/chris/rostut/install/examples_rclpy_minimal_service/share/ament_index/resource_index
+[77.945s] creating /home/chris/rostut/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[77.945s] copying resource/examples_rclpy_minimal_service -> /home/chris/rostut/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[77.945s] copying package.xml -> /home/chris/rostut/install/examples_rclpy_minimal_service/share/examples_rclpy_minimal_service
+[77.971s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[77.971s]   warnings.warn(
+[77.971s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[77.971s]   warnings.warn(
+[78.738s] Invoked command in '/home/chris/rostut/build/examples_rclpy_minimal_service' returned '0': PYTHONPATH=/home/chris/rostut/build/examples_rclpy_minimal_service/prefix_override:/home/chris/rostut/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/chris/rostut/build/examples_rclpy_minimal_service/build --no-deps install_data

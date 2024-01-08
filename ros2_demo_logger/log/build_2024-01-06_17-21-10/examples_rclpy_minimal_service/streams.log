@@ -1,0 +1,22 @@
+[3.462s] Invoking command in '/home/chris/ros2_ws/build/examples_rclpy_minimal_service': PYTHONPATH=/home/chris/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/chris/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/chris/ros2_ws/build/examples_rclpy_minimal_service/build --no-deps install_data
+[3.817s] running develop
+[3.817s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.817s]   warnings.warn(
+[3.819s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.819s]   warnings.warn(
+[4.028s] running egg_info
+[4.028s] writing examples_rclpy_minimal_service.egg-info/PKG-INFO
+[4.028s] writing dependency_links to examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[4.029s] writing entry points to examples_rclpy_minimal_service.egg-info/entry_points.txt
+[4.029s] writing requirements to examples_rclpy_minimal_service.egg-info/requires.txt
+[4.029s] writing top-level names to examples_rclpy_minimal_service.egg-info/top_level.txt
+[4.030s] reading manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[4.030s] writing manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[4.030s] running build_ext
+[4.030s] Creating /home/chris/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples-rclpy-minimal-service.egg-link (link to .)
+[4.031s] Installing service script to /home/chris/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[4.031s] Installing service_member_function script to /home/chris/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[4.031s] 
+[4.031s] Installed /home/chris/ros2_ws/build/examples_rclpy_minimal_service
+[4.031s] running install_data
+[4.604s] Invoked command in '/home/chris/ros2_ws/build/examples_rclpy_minimal_service' returned '0': PYTHONPATH=/home/chris/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/chris/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/chris/ros2_ws/build/examples_rclpy_minimal_service/build --no-deps install_data

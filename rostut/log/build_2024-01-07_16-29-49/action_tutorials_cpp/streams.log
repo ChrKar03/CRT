@@ -1,0 +1,77 @@
+[0.886s] Invoking command in '/home/chris/rostut/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/chris/rostut/src/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/chris/rostut/install/action_tutorials_cpp
+[0.944s] -- The C compiler identification is GNU 11.4.0
+[1.010s] -- The CXX compiler identification is GNU 11.4.0
+[1.018s] -- Detecting C compiler ABI info
+[1.092s] -- Detecting C compiler ABI info - done
+[1.103s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.104s] -- Detecting C compile features
+[1.104s] -- Detecting C compile features - done
+[1.107s] -- Detecting CXX compiler ABI info
+[1.185s] -- Detecting CXX compiler ABI info - done
+[1.191s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.191s] -- Detecting CXX compile features
+[1.192s] -- Detecting CXX compile features - done
+[1.194s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.354s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.431s] -- Found action_tutorials_interfaces: 0.0.0 (/home/chris/rostut/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake)
+[1.468s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.471s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.479s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.492s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.508s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.604s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[1.646s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.648s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.706s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.722s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.749s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.756s] -- Looking for pthread.h
+[1.795s] -- Looking for pthread.h - found
+[1.795s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.834s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.834s] -- Found Threads: TRUE  
+[1.927s] -- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.946s] -- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.990s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.044s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.044s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/chris/rostut/src/action_tutorials_cpp/include>
+[2.044s] -- Configured cppcheck exclude dirs and/or files: 
+[2.044s] -- Added test 'lint_cmake' to check CMake code style
+[2.045s] -- Added test 'uncrustify' to check C / C++ code style
+[2.045s] -- Configured uncrustify additional arguments: 
+[2.046s] -- Added test 'xmllint' to check XML markup files
+[2.046s] -- Configuring done
+[2.053s] -- Generating done
+[2.054s] -- Build files have been written to: /home/chris/rostut/build/action_tutorials_cpp
+[2.061s] Invoked command in '/home/chris/rostut/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/chris/rostut/src/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/chris/rostut/install/action_tutorials_cpp
+[2.061s] Invoking command in '/home/chris/rostut/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/chris/rostut/build/action_tutorials_cpp -- -j20 -l20
+[2.087s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m
+[2.087s] [ 50%] [32mBuilding CXX object CMakeFiles/fibonacci_action_server.dir/rclcpp_components/node_main_fibonacci_action_server.cpp.o[0m
+[3.646s] [ 75%] [32m[1mLinking CXX executable fibonacci_action_server[0m
+[3.710s] [ 75%] Built target fibonacci_action_server
+[4.025s] [100%] [32m[1mLinking CXX shared library libaction_server.so[0m
+[4.107s] [100%] Built target action_server
+[4.117s] Invoked command in '/home/chris/rostut/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/chris/rostut/build/action_tutorials_cpp -- -j20 -l20
+[4.132s] Invoking command in '/home/chris/rostut/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/chris/rostut/build/action_tutorials_cpp
+[4.135s] -- Install configuration: ""
+[4.135s] -- Installing: /home/chris/rostut/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_server
+[4.135s] -- Set runtime path of "/home/chris/rostut/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_server" to ""
+[4.135s] -- Installing: /home/chris/rostut/install/action_tutorials_cpp/lib/libaction_server.so
+[4.136s] -- Set runtime path of "/home/chris/rostut/install/action_tutorials_cpp/lib/libaction_server.so" to ""
+[4.136s] -- Installing: /home/chris/rostut/install/action_tutorials_cpp/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp
+[4.136s] -- Installing: /home/chris/rostut/install/action_tutorials_cpp/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp
+[4.137s] -- Installing: /home/chris/rostut/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.sh
+[4.137s] -- Installing: /home/chris/rostut/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.dsv
+[4.137s] -- Installing: /home/chris/rostut/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.sh
+[4.137s] -- Installing: /home/chris/rostut/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.dsv
+[4.137s] -- Installing: /home/chris/rostut/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.bash
+[4.137s] -- Installing: /home/chris/rostut/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.sh
+[4.137s] -- Installing: /home/chris/rostut/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.zsh
+[4.137s] -- Installing: /home/chris/rostut/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.dsv
+[4.137s] -- Installing: /home/chris/rostut/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv
+[4.137s] -- Installing: /home/chris/rostut/install/action_tutorials_cpp/share/ament_index/resource_index/packages/action_tutorials_cpp
+[4.137s] -- Installing: /home/chris/rostut/install/action_tutorials_cpp/share/ament_index/resource_index/rclcpp_components/action_tutorials_cpp
+[4.137s] -- Installing: /home/chris/rostut/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig.cmake
+[4.137s] -- Installing: /home/chris/rostut/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig-version.cmake
+[4.137s] -- Installing: /home/chris/rostut/install/action_tutorials_cpp/share/action_tutorials_cpp/package.xml
+[4.138s] Invoked command in '/home/chris/rostut/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/chris/rostut/build/action_tutorials_cpp

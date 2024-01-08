@@ -1,0 +1,66 @@
+[0.640s] Invoking command in '/home/chris/rostut/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chris/rostut/src/examples/rclcpp/executors/cbg_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/rostut/install/examples_rclcpp_cbg_executor
+[2.374s] -- The C compiler identification is GNU 11.4.0
+[2.375s] -- The CXX compiler identification is GNU 11.4.0
+[2.375s] -- Detecting C compiler ABI info
+[2.375s] -- Detecting C compiler ABI info - done
+[2.376s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.376s] -- Detecting C compile features
+[2.377s] -- Detecting C compile features - done
+[2.377s] -- Detecting CXX compiler ABI info
+[2.377s] -- Detecting CXX compiler ABI info - done
+[2.377s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.377s] -- Detecting CXX compile features
+[2.377s] -- Detecting CXX compile features - done
+[2.377s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.377s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.377s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.378s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[2.378s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.378s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.378s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.378s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.378s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.378s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.378s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.378s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.378s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.378s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.378s] -- Looking for pthread.h
+[2.378s] -- Looking for pthread.h - found
+[2.378s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.378s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.378s] -- Found Threads: TRUE  
+[2.378s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.378s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.378s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.378s] -- Configured cppcheck include dirs: /home/chris/rostut/src/examples/rclcpp/executors/cbg_executor/include
+[2.378s] -- Configured cppcheck exclude dirs and/or files: 
+[2.379s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.379s] -- Configured cpplint exclude dirs and/or files: 
+[2.379s] -- Added test 'lint_cmake' to check CMake code style
+[2.379s] -- Added test 'uncrustify' to check C / C++ code style
+[2.379s] -- Configured uncrustify additional arguments: 
+[2.379s] -- Added test 'xmllint' to check XML markup files
+[2.379s] -- Configuring done
+[2.379s] -- Generating done
+[2.379s] -- Build files have been written to: /home/chris/rostut/build/examples_rclcpp_cbg_executor
+[2.414s] Invoked command in '/home/chris/rostut/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chris/rostut/src/examples/rclcpp/executors/cbg_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/rostut/install/examples_rclcpp_cbg_executor
+[2.415s] Invoking command in '/home/chris/rostut/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chris/rostut/build/examples_rclcpp_cbg_executor -- -j20 -l20
+[2.448s] [ 10%] [32mBuilding CXX object CMakeFiles/ping.dir/src/ping.cpp.o[0m
+[2.448s] [ 20%] [32mBuilding CXX object CMakeFiles/ping.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[2.454s] [ 30%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[2.459s] [ 40%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[2.459s] [ 50%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/ping_pong.cpp.o[0m
+[2.468s] [ 60%] [32mBuilding CXX object CMakeFiles/pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[2.468s] [ 70%] [32mBuilding CXX object CMakeFiles/pong.dir/src/pong.cpp.o[0m
+[48.761s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[48.766s] compilation terminated.
+[48.766s] gmake[2]: *** [CMakeFiles/pong.dir/build.make:76: CMakeFiles/pong.dir/src/pong.cpp.o] Error 1
+[48.766s] gmake[2]: *** Waiting for unfinished jobs....
+[86.368s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/pong.dir/all] Error 2
+[86.368s] gmake[1]: *** Waiting for unfinished jobs....
+[86.491s] [ 80%] [32m[1mLinking CXX executable ping_pong[0m
+[86.702s] [ 90%] [32m[1mLinking CXX executable ping[0m
+[87.224s] [ 90%] Built target ping
+[87.224s] [ 90%] Built target ping_pong
+[87.228s] gmake: *** [Makefile:146: all] Error 2

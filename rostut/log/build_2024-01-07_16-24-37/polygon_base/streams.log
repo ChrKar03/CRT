@@ -1,0 +1,27 @@
+[0.642s] Invoking command in '/home/chris/rostut/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/chris/rostut/build/polygon_base -- -j20 -l20
+[1.414s] [35m[1mConsolidate compiler generated dependencies of target area_node[0m
+[1.414s] [100%] Built target area_node
+[1.423s] Invoked command in '/home/chris/rostut/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/chris/rostut/build/polygon_base -- -j20 -l20
+[1.454s] Invoking command in '/home/chris/rostut/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/chris/rostut/build/polygon_base
+[1.465s] -- Install configuration: ""
+[1.466s] -- Up-to-date: /home/chris/rostut/install/polygon_base/include
+[1.467s] -- Up-to-date: /home/chris/rostut/install/polygon_base/include/polygon_base
+[1.467s] -- Up-to-date: /home/chris/rostut/install/polygon_base/include/polygon_base/regular_polygon.hpp
+[1.467s] -- Up-to-date: /home/chris/rostut/install/polygon_base/lib/polygon_base/area_node
+[1.467s] -- Up-to-date: /home/chris/rostut/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base
+[1.467s] -- Up-to-date: /home/chris/rostut/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base
+[1.467s] -- Up-to-date: /home/chris/rostut/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh
+[1.467s] -- Up-to-date: /home/chris/rostut/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv
+[1.467s] -- Up-to-date: /home/chris/rostut/install/polygon_base/share/polygon_base/environment/path.sh
+[1.467s] -- Up-to-date: /home/chris/rostut/install/polygon_base/share/polygon_base/environment/path.dsv
+[1.467s] -- Up-to-date: /home/chris/rostut/install/polygon_base/share/polygon_base/local_setup.bash
+[1.467s] -- Up-to-date: /home/chris/rostut/install/polygon_base/share/polygon_base/local_setup.sh
+[1.467s] -- Up-to-date: /home/chris/rostut/install/polygon_base/share/polygon_base/local_setup.zsh
+[1.467s] -- Up-to-date: /home/chris/rostut/install/polygon_base/share/polygon_base/local_setup.dsv
+[1.467s] -- Installing: /home/chris/rostut/install/polygon_base/share/polygon_base/package.dsv
+[1.467s] -- Up-to-date: /home/chris/rostut/install/polygon_base/share/ament_index/resource_index/packages/polygon_base
+[1.468s] -- Up-to-date: /home/chris/rostut/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.468s] -- Up-to-date: /home/chris/rostut/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake
+[1.468s] -- Up-to-date: /home/chris/rostut/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake
+[1.468s] -- Up-to-date: /home/chris/rostut/install/polygon_base/share/polygon_base/package.xml
+[1.496s] Invoked command in '/home/chris/rostut/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/chris/rostut/build/polygon_base

@@ -1,0 +1,66 @@
+[0.487s] Invoking command in '/home/chris/rostut/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/chris/rostut/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/chris/rostut/install/examples_rclcpp_minimal_publisher
+[1.964s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.964s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.964s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[1.965s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.965s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.965s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.965s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.965s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.966s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.966s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.966s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.966s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.966s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.966s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.966s] -- Configured cppcheck include dirs: 
+[1.966s] -- Configured cppcheck exclude dirs and/or files: 
+[1.966s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.966s] -- Configured cpplint exclude dirs and/or files: 
+[1.966s] -- Added test 'lint_cmake' to check CMake code style
+[1.966s] -- Added test 'uncrustify' to check C / C++ code style
+[1.966s] -- Configured uncrustify additional arguments: 
+[1.966s] -- Added test 'xmllint' to check XML markup files
+[1.967s] -- Configuring done
+[1.967s] -- Generating done
+[1.967s] -- Build files have been written to: /home/chris/rostut/build/examples_rclcpp_minimal_publisher
+[1.992s] Invoked command in '/home/chris/rostut/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/chris/rostut/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/chris/rostut/install/examples_rclcpp_minimal_publisher
+[1.992s] Invoking command in '/home/chris/rostut/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/chris/rostut/build/examples_rclcpp_minimal_publisher -- -j20 -l20
+[1.999s] [35m[1mConsolidate compiler generated dependencies of target publisher_member_function[0m
+[1.999s] [35m[1mConsolidate compiler generated dependencies of target publisher_member_function_with_type_adapter[0m
+[1.999s] [35m[1mConsolidate compiler generated dependencies of target publisher_lambda[0m
+[2.001s] [35m[1mConsolidate compiler generated dependencies of target publisher_wait_for_all_acked[0m
+[2.001s] [35m[1mConsolidate compiler generated dependencies of target publisher_not_composable[0m
+[2.002s] [35m[1mConsolidate compiler generated dependencies of target publisher_member_function_with_unique_network_flow_endpoints[0m
+[2.031s] [ 16%] Built target publisher_member_function
+[2.031s] [ 33%] Built target publisher_lambda
+[2.033s] [ 50%] Built target publisher_member_function_with_type_adapter
+[2.033s] [ 66%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[2.034s] [ 83%] Built target publisher_not_composable
+[2.041s] [100%] Built target publisher_wait_for_all_acked
+[2.096s] Invoked command in '/home/chris/rostut/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/chris/rostut/build/examples_rclcpp_minimal_publisher -- -j20 -l20
+[2.415s] Invoking command in '/home/chris/rostut/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/chris/rostut/build/examples_rclcpp_minimal_publisher
+[2.422s] -- Install configuration: ""
+[2.423s] -- Execute custom install script
+[2.423s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[2.432s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[2.440s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter
+[2.449s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[2.457s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked
+[2.464s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[2.470s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[2.475s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[2.480s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[2.487s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[2.491s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[2.496s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[2.503s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[2.508s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[2.514s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[2.519s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[2.524s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[2.529s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[2.535s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[2.542s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[2.546s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[3.139s] Invoked command in '/home/chris/rostut/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/chris/rostut/build/examples_rclcpp_minimal_publisher

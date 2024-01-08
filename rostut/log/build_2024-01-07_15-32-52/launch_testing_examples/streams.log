@@ -1,0 +1,53 @@
+[1.850s] Invoking command in '/home/chris/rostut/src/examples/launch_testing/launch_testing_examples': PYTHONPATH=/home/chris/rostut/build/launch_testing_examples/prefix_override:/home/chris/rostut/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/launch_testing_examples build --build-base /home/chris/rostut/build/launch_testing_examples/build install --record /home/chris/rostut/build/launch_testing_examples/install.log --single-version-externally-managed
+[2.149s] running egg_info
+[2.150s] creating ../../../../build/launch_testing_examples/launch_testing_examples.egg-info
+[2.150s] writing ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/PKG-INFO
+[2.151s] writing dependency_links to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/dependency_links.txt
+[2.151s] writing entry points to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/entry_points.txt
+[2.152s] writing requirements to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/requires.txt
+[2.152s] writing top-level names to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/top_level.txt
+[2.152s] writing manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[2.153s] reading manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[2.154s] writing manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[2.154s] running build
+[2.154s] running build_py
+[2.154s] creating /home/chris/rostut/build/launch_testing_examples/build
+[2.155s] creating /home/chris/rostut/build/launch_testing_examples/build/lib
+[2.155s] creating /home/chris/rostut/build/launch_testing_examples/build/lib/launch_testing_examples
+[2.155s] copying launch_testing_examples/check_node_launch_test.py -> /home/chris/rostut/build/launch_testing_examples/build/lib/launch_testing_examples
+[2.155s] copying launch_testing_examples/check_multiple_nodes_launch_test.py -> /home/chris/rostut/build/launch_testing_examples/build/lib/launch_testing_examples
+[2.155s] copying launch_testing_examples/record_rosbag_launch_test.py -> /home/chris/rostut/build/launch_testing_examples/build/lib/launch_testing_examples
+[2.155s] copying launch_testing_examples/hello_world_launch_test.py -> /home/chris/rostut/build/launch_testing_examples/build/lib/launch_testing_examples
+[2.156s] copying launch_testing_examples/check_msgs_launch_test.py -> /home/chris/rostut/build/launch_testing_examples/build/lib/launch_testing_examples
+[2.156s] copying launch_testing_examples/__init__.py -> /home/chris/rostut/build/launch_testing_examples/build/lib/launch_testing_examples
+[2.156s] copying launch_testing_examples/set_param_launch_test.py -> /home/chris/rostut/build/launch_testing_examples/build/lib/launch_testing_examples
+[2.156s] running install
+[2.156s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.156s]   warnings.warn(
+[2.156s] running install_lib
+[2.157s] creating /home/chris/rostut/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[2.157s] copying /home/chris/rostut/build/launch_testing_examples/build/lib/launch_testing_examples/check_node_launch_test.py -> /home/chris/rostut/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[2.157s] copying /home/chris/rostut/build/launch_testing_examples/build/lib/launch_testing_examples/check_multiple_nodes_launch_test.py -> /home/chris/rostut/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[2.158s] copying /home/chris/rostut/build/launch_testing_examples/build/lib/launch_testing_examples/record_rosbag_launch_test.py -> /home/chris/rostut/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[2.158s] copying /home/chris/rostut/build/launch_testing_examples/build/lib/launch_testing_examples/hello_world_launch_test.py -> /home/chris/rostut/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[2.158s] copying /home/chris/rostut/build/launch_testing_examples/build/lib/launch_testing_examples/check_msgs_launch_test.py -> /home/chris/rostut/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[2.158s] copying /home/chris/rostut/build/launch_testing_examples/build/lib/launch_testing_examples/__init__.py -> /home/chris/rostut/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[2.158s] copying /home/chris/rostut/build/launch_testing_examples/build/lib/launch_testing_examples/set_param_launch_test.py -> /home/chris/rostut/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[2.159s] byte-compiling /home/chris/rostut/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/check_node_launch_test.py to check_node_launch_test.cpython-310.pyc
+[2.160s] byte-compiling /home/chris/rostut/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/check_multiple_nodes_launch_test.py to check_multiple_nodes_launch_test.cpython-310.pyc
+[2.161s] byte-compiling /home/chris/rostut/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/record_rosbag_launch_test.py to record_rosbag_launch_test.cpython-310.pyc
+[2.161s] byte-compiling /home/chris/rostut/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/hello_world_launch_test.py to hello_world_launch_test.cpython-310.pyc
+[2.161s] byte-compiling /home/chris/rostut/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/check_msgs_launch_test.py to check_msgs_launch_test.cpython-310.pyc
+[2.162s] byte-compiling /home/chris/rostut/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/__init__.py to __init__.cpython-310.pyc
+[2.162s] byte-compiling /home/chris/rostut/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/set_param_launch_test.py to set_param_launch_test.cpython-310.pyc
+[2.162s] running install_data
+[2.163s] creating /home/chris/rostut/install/launch_testing_examples/share/ament_index
+[2.163s] creating /home/chris/rostut/install/launch_testing_examples/share/ament_index/resource_index
+[2.163s] creating /home/chris/rostut/install/launch_testing_examples/share/ament_index/resource_index/packages
+[2.163s] copying resource/launch_testing_examples -> /home/chris/rostut/install/launch_testing_examples/share/ament_index/resource_index/packages
+[2.163s] copying package.xml -> /home/chris/rostut/install/launch_testing_examples/share/launch_testing_examples
+[2.163s] running install_egg_info
+[2.165s] Copying ../../../../build/launch_testing_examples/launch_testing_examples.egg-info to /home/chris/rostut/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples-0.15.1-py3.10.egg-info
+[2.166s] running install_scripts
+[2.186s] writing list of installed files to '/home/chris/rostut/build/launch_testing_examples/install.log'
+[2.263s] Invoked command in '/home/chris/rostut/src/examples/launch_testing/launch_testing_examples' returned '0': PYTHONPATH=/home/chris/rostut/build/launch_testing_examples/prefix_override:/home/chris/rostut/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/launch_testing_examples build --build-base /home/chris/rostut/build/launch_testing_examples/build install --record /home/chris/rostut/build/launch_testing_examples/install.log --single-version-externally-managed

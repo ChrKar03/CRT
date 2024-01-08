@@ -1,0 +1,49 @@
+[0.362s] Invoking command in '/home/chris/rostut/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/chris/rostut/build/examples_rclcpp_wait_set -- -j20 -l20
+[1.706s] [  8%] Built target wait_set_talker
+[1.706s] [ 16%] Built target wait_set_listener
+[1.707s] [ 25%] Built target listener
+[1.707s] [ 33%] Built target wait_set
+[1.707s] [ 41%] Built target talker
+[1.707s] [ 50%] Built target thread_safe_wait_set
+[1.707s] [ 58%] Built target static_wait_set
+[1.707s] [35m[1mConsolidate compiler generated dependencies of target executor_random_order[0m
+[1.707s] [35m[1mConsolidate compiler generated dependencies of target wait_set_topics_with_different_rates[0m
+[1.707s] [ 66%] Built target wait_set_topics_and_timer
+[1.707s] [35m[1mConsolidate compiler generated dependencies of target wait_set_composed[0m
+[1.707s] [ 75%] Built target wait_set_random_order
+[1.707s] [ 83%] Built target wait_set_topics_with_different_rates
+[1.707s] [ 91%] Built target executor_random_order
+[1.707s] [100%] Built target wait_set_composed
+[1.715s] Invoked command in '/home/chris/rostut/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/chris/rostut/build/examples_rclcpp_wait_set -- -j20 -l20
+[1.777s] Invoking command in '/home/chris/rostut/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/chris/rostut/build/examples_rclcpp_wait_set
+[1.779s] -- Install configuration: ""
+[1.779s] -- Execute custom install script
+[1.779s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[1.779s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[1.779s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/lib/libtalker.so
+[1.779s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/lib/liblistener.so
+[1.779s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[1.779s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[1.779s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[1.779s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[1.779s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[1.779s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[1.780s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[1.780s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[1.780s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[1.780s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[1.780s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[1.780s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[1.780s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[1.780s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[1.780s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[1.780s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[1.780s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[1.780s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[1.780s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[1.781s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[1.781s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[1.782s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[1.782s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[1.782s] -- Up-to-date symlink: /home/chris/rostut/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[2.032s] Invoked command in '/home/chris/rostut/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/chris/rostut/build/examples_rclcpp_wait_set

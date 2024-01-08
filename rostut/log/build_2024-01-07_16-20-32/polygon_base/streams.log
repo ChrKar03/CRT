@@ -1,0 +1,57 @@
+[0.035s] Invoking command in '/home/chris/rostut/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/chris/rostut/src/polygon_base -DCMAKE_INSTALL_PREFIX=/home/chris/rostut/install/polygon_base
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.093s] -- The CXX compiler identification is GNU 11.4.0
+[0.097s] -- Detecting C compiler ABI info
+[0.134s] -- Detecting C compiler ABI info - done
+[0.138s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.138s] -- Detecting C compile features
+[0.138s] -- Detecting C compile features - done
+[0.140s] -- Detecting CXX compiler ABI info
+[0.189s] -- Detecting CXX compiler ABI info - done
+[0.193s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.193s] -- Detecting CXX compile features
+[0.193s] -- Detecting CXX compile features - done
+[0.195s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.312s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.388s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.422s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.473s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.473s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/chris/rostut/src/polygon_base/include>
+[0.473s] -- Configured cppcheck exclude dirs and/or files: 
+[0.473s] -- Added test 'lint_cmake' to check CMake code style
+[0.474s] -- Added test 'uncrustify' to check C / C++ code style
+[0.474s] -- Configured uncrustify additional arguments: 
+[0.475s] -- Added test 'xmllint' to check XML markup files
+[0.476s] -- Configuring done
+[0.477s] -- Generating done
+[0.478s] -- Build files have been written to: /home/chris/rostut/build/polygon_base
+[0.482s] Invoked command in '/home/chris/rostut/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/chris/rostut/src/polygon_base -DCMAKE_INSTALL_PREFIX=/home/chris/rostut/install/polygon_base
+[0.482s] Invoking command in '/home/chris/rostut/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/chris/rostut/build/polygon_base -- -j20 -l20
+[0.504s] [ 50%] [32mBuilding CXX object CMakeFiles/area_node.dir/src/area_node.cpp.o[0m
+[1.962s] [100%] [32m[1mLinking CXX executable area_node[0m
+[2.035s] [100%] Built target area_node
+[2.045s] Invoked command in '/home/chris/rostut/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/chris/rostut/build/polygon_base -- -j20 -l20
+[2.063s] Invoking command in '/home/chris/rostut/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/chris/rostut/build/polygon_base
+[2.068s] -- Install configuration: ""
+[2.068s] -- Installing: /home/chris/rostut/install/polygon_base/include
+[2.068s] -- Installing: /home/chris/rostut/install/polygon_base/include/polygon_base
+[2.068s] -- Installing: /home/chris/rostut/install/polygon_base/include/polygon_base/regular_polygon.hpp
+[2.068s] -- Installing: /home/chris/rostut/install/polygon_base/lib/polygon_base/area_node
+[2.069s] -- Set runtime path of "/home/chris/rostut/install/polygon_base/lib/polygon_base/area_node" to ""
+[2.069s] -- Installing: /home/chris/rostut/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base
+[2.069s] -- Installing: /home/chris/rostut/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base
+[2.069s] -- Installing: /home/chris/rostut/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh
+[2.070s] -- Installing: /home/chris/rostut/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv
+[2.070s] -- Installing: /home/chris/rostut/install/polygon_base/share/polygon_base/environment/path.sh
+[2.070s] -- Installing: /home/chris/rostut/install/polygon_base/share/polygon_base/environment/path.dsv
+[2.070s] -- Installing: /home/chris/rostut/install/polygon_base/share/polygon_base/local_setup.bash
+[2.070s] -- Installing: /home/chris/rostut/install/polygon_base/share/polygon_base/local_setup.sh
+[2.070s] -- Installing: /home/chris/rostut/install/polygon_base/share/polygon_base/local_setup.zsh
+[2.070s] -- Installing: /home/chris/rostut/install/polygon_base/share/polygon_base/local_setup.dsv
+[2.070s] -- Installing: /home/chris/rostut/install/polygon_base/share/polygon_base/package.dsv
+[2.070s] -- Installing: /home/chris/rostut/install/polygon_base/share/ament_index/resource_index/packages/polygon_base
+[2.070s] -- Installing: /home/chris/rostut/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.070s] -- Installing: /home/chris/rostut/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake
+[2.070s] -- Installing: /home/chris/rostut/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake
+[2.070s] -- Installing: /home/chris/rostut/install/polygon_base/share/polygon_base/package.xml
+[2.071s] Invoked command in '/home/chris/rostut/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/chris/rostut/build/polygon_base

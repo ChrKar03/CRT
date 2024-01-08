@@ -1,0 +1,89 @@
+[0.356s] Invoking command in '/home/chris/rostut/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chris/rostut/src/examples/rclcpp/wait_set -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/rostut/install/examples_rclcpp_wait_set
+[2.107s] -- The C compiler identification is GNU 11.4.0
+[2.107s] -- The CXX compiler identification is GNU 11.4.0
+[2.107s] -- Detecting C compiler ABI info
+[2.107s] -- Detecting C compiler ABI info - done
+[2.107s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.107s] -- Detecting C compile features
+[2.107s] -- Detecting C compile features - done
+[2.107s] -- Detecting CXX compiler ABI info
+[2.107s] -- Detecting CXX compiler ABI info - done
+[2.107s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.107s] -- Detecting CXX compile features
+[2.107s] -- Detecting CXX compile features - done
+[2.107s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.107s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.108s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.108s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[2.108s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.108s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.108s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.108s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.108s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.108s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[2.108s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.108s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.108s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.108s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.108s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.108s] -- Looking for pthread.h
+[2.108s] -- Looking for pthread.h - found
+[2.108s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.108s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.108s] -- Found Threads: TRUE  
+[2.108s] -- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.108s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.108s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.108s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.108s] -- Configured cppcheck include dirs: /home/chris/rostut/src/examples/rclcpp/wait_set/include
+[2.108s] -- Configured cppcheck exclude dirs and/or files: 
+[2.108s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.108s] -- Configured cpplint exclude dirs and/or files: 
+[2.108s] -- Added test 'lint_cmake' to check CMake code style
+[2.108s] -- Added test 'uncrustify' to check C / C++ code style
+[2.108s] -- Configured uncrustify additional arguments: 
+[2.108s] -- Added test 'xmllint' to check XML markup files
+[2.108s] -- Configuring done
+[2.109s] -- Generating done
+[2.109s] -- Build files have been written to: /home/chris/rostut/build/examples_rclcpp_wait_set
+[2.123s] Invoked command in '/home/chris/rostut/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chris/rostut/src/examples/rclcpp/wait_set -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/rostut/install/examples_rclcpp_wait_set
+[2.124s] Invoking command in '/home/chris/rostut/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chris/rostut/build/examples_rclcpp_wait_set -- -j20 -l20
+[2.226s] [  4%] [32mBuilding CXX object CMakeFiles/wait_set_talker.dir/rclcpp_components/node_main_wait_set_talker.cpp.o[0m
+[2.226s] [  8%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[2.226s] [ 12%] [32mBuilding CXX object CMakeFiles/wait_set.dir/src/wait_set.cpp.o[0m
+[2.226s] [ 16%] [32mBuilding CXX object CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o[0m
+[2.226s] [ 20%] [32mBuilding CXX object CMakeFiles/static_wait_set.dir/src/static_wait_set.cpp.o[0m
+[2.236s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[2.260s] [ 29%] [32mBuilding CXX object CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o[0m
+[2.274s] [ 33%] [32mBuilding CXX object CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o[0m
+[2.367s] [ 37%] [32mBuilding CXX object CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o[0m
+[2.386s] [ 41%] [32mBuilding CXX object CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o[0m
+[2.389s] [ 45%] [32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o[0m
+[37.572s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[37.577s] compilation terminated.
+[37.578s] gmake[2]: *** [CMakeFiles/wait_set_topics_with_different_rates.dir/build.make:76: CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o] Error 1
+[37.578s] gmake[1]: *** [CMakeFiles/Makefile2:419: CMakeFiles/wait_set_topics_with_different_rates.dir/all] Error 2
+[37.578s] gmake[1]: *** Waiting for unfinished jobs....
+[40.584s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[40.584s] compilation terminated.
+[40.597s] gmake[2]: *** [CMakeFiles/executor_random_order.dir/build.make:76: CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o] Error 1
+[40.605s] gmake[1]: *** [CMakeFiles/Makefile2:393: CMakeFiles/executor_random_order.dir/all] Error 2
+[76.643s] [ 50%] [32m[1mLinking CXX executable wait_set_listener[0m
+[76.946s] [ 50%] Built target wait_set_listener
+[78.625s] [ 54%] [32m[1mLinking CXX executable wait_set_talker[0m
+[79.112s] [ 54%] Built target wait_set_talker
+[80.884s] [ 58%] [32m[1mLinking CXX shared library libtalker.so[0m
+[81.343s] [ 58%] Built target talker
+[86.042s] [ 62%] [32m[1mLinking CXX executable wait_set_topics_and_timer[0m
+[86.761s] [ 62%] Built target wait_set_topics_and_timer
+[87.259s] [ 66%] [32m[1mLinking CXX executable wait_set[0m
+[87.324s] [ 70%] [32m[1mLinking CXX executable static_wait_set[0m
+[87.458s] [ 75%] [32m[1mLinking CXX shared library liblistener.so[0m
+[87.516s] [ 79%] [32m[1mLinking CXX executable thread_safe_wait_set[0m
+[87.650s] [ 79%] Built target wait_set
+[87.698s] [ 79%] Built target static_wait_set
+[87.801s] [ 79%] Built target listener
+[87.854s] [ 79%] Built target thread_safe_wait_set
+[88.171s] [ 83%] [32m[1mLinking CXX executable wait_set_random_order[0m
+[88.379s] [ 83%] Built target wait_set_random_order
+[88.382s] gmake: *** [Makefile:146: all] Error 2

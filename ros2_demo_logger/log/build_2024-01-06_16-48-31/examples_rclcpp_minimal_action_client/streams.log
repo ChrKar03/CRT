@@ -1,0 +1,62 @@
+[0.392s] Invoking command in '/home/chris/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chris/ros2_ws/src/examples/rclcpp/actions/minimal_action_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/ros2_ws/install/examples_rclcpp_minimal_action_client
+[2.092s] -- The C compiler identification is GNU 11.4.0
+[2.092s] -- The CXX compiler identification is GNU 11.4.0
+[2.092s] -- Detecting C compiler ABI info
+[2.092s] -- Detecting C compiler ABI info - done
+[2.092s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.092s] -- Detecting C compile features
+[2.092s] -- Detecting C compile features - done
+[2.093s] -- Detecting CXX compiler ABI info
+[2.093s] -- Detecting CXX compiler ABI info - done
+[2.093s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.093s] -- Detecting CXX compile features
+[2.093s] -- Detecting CXX compile features - done
+[2.093s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.093s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.093s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.093s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[2.093s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.093s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.093s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.093s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.093s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.093s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[2.093s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.093s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.093s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.093s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.093s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.093s] -- Looking for pthread.h
+[2.093s] -- Looking for pthread.h - found
+[2.093s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.093s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.093s] -- Found Threads: TRUE  
+[2.093s] -- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.093s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.093s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.093s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.093s] -- Configured cppcheck include dirs: 
+[2.093s] -- Configured cppcheck exclude dirs and/or files: 
+[2.093s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.093s] -- Configured cpplint exclude dirs and/or files: 
+[2.093s] -- Added test 'lint_cmake' to check CMake code style
+[2.093s] -- Added test 'uncrustify' to check C / C++ code style
+[2.093s] -- Configured uncrustify additional arguments: 
+[2.094s] -- Added test 'xmllint' to check XML markup files
+[2.094s] -- Configuring done
+[2.094s] -- Generating done
+[2.094s] -- Build files have been written to: /home/chris/ros2_ws/build/examples_rclcpp_minimal_action_client
+[2.111s] Invoked command in '/home/chris/ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chris/ros2_ws/src/examples/rclcpp/actions/minimal_action_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/ros2_ws/install/examples_rclcpp_minimal_action_client
+[2.112s] Invoking command in '/home/chris/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chris/ros2_ws/build/examples_rclcpp_minimal_action_client -- -j20 -l20
+[2.147s] [ 12%] [32mBuilding CXX object CMakeFiles/action_client_not_composable.dir/not_composable.cpp.o[0m
+[2.150s] [ 25%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_cancel.dir/not_composable_with_cancel.cpp.o[0m
+[2.162s] [ 37%] [32mBuilding CXX object CMakeFiles/action_client_member_functions.dir/member_functions.cpp.o[0m
+[2.166s] [ 50%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_feedback.dir/not_composable_with_feedback.cpp.o[0m
+[67.857s] [ 62%] [32m[1mLinking CXX executable action_client_not_composable[0m
+[68.474s] [ 62%] Built target action_client_not_composable
+[69.355s] [ 75%] [32m[1mLinking CXX executable action_client_not_composable_with_feedback[0m
+[69.645s] [ 75%] Built target action_client_not_composable_with_feedback
+[69.799s] [ 87%] [32m[1mLinking CXX executable action_client_member_functions[0m
+[69.999s] [100%] [32m[1mLinking CXX executable action_client_not_composable_with_cancel[0m
+[70.067s] [100%] Built target action_client_member_functions
+[70.277s] [100%] Built target action_client_not_composable_with_cancel

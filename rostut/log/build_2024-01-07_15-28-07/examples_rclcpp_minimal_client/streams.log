@@ -1,0 +1,72 @@
+[0.557s] Invoking command in '/home/chris/rostut/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chris/rostut/src/examples/rclcpp/services/minimal_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/rostut/install/examples_rclcpp_minimal_client
+[2.294s] -- The C compiler identification is GNU 11.4.0
+[2.294s] -- The CXX compiler identification is GNU 11.4.0
+[2.294s] -- Detecting C compiler ABI info
+[2.294s] -- Detecting C compiler ABI info - done
+[2.294s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.294s] -- Detecting C compile features
+[2.294s] -- Detecting C compile features - done
+[2.294s] -- Detecting CXX compiler ABI info
+[2.294s] -- Detecting CXX compiler ABI info - done
+[2.294s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.294s] -- Detecting CXX compile features
+[2.294s] -- Detecting CXX compile features - done
+[2.294s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.294s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.294s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.294s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[2.294s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.294s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.294s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.294s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.294s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.294s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[2.294s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.294s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.295s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.295s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.295s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.295s] -- Looking for pthread.h
+[2.295s] -- Looking for pthread.h - found
+[2.295s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.295s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.295s] -- Found Threads: TRUE  
+[2.295s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.295s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.295s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.295s] -- Configured cppcheck include dirs: 
+[2.295s] -- Configured cppcheck exclude dirs and/or files: 
+[2.295s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.295s] -- Configured cpplint exclude dirs and/or files: 
+[2.295s] -- Added test 'lint_cmake' to check CMake code style
+[2.295s] -- Added test 'uncrustify' to check C / C++ code style
+[2.295s] -- Configured uncrustify additional arguments: 
+[2.295s] -- Added test 'xmllint' to check XML markup files
+[2.295s] -- Configuring done
+[2.295s] -- Generating done
+[2.295s] -- Build files have been written to: /home/chris/rostut/build/examples_rclcpp_minimal_client
+[2.323s] Invoked command in '/home/chris/rostut/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chris/rostut/src/examples/rclcpp/services/minimal_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/rostut/install/examples_rclcpp_minimal_client
+[2.323s] Invoking command in '/home/chris/rostut/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chris/rostut/build/examples_rclcpp_minimal_client -- -j20 -l20
+[2.358s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[80.186s] [100%] [32m[1mLinking CXX executable client_main[0m
+[80.697s] [100%] Built target client_main
+[81.601s] Invoked command in '/home/chris/rostut/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chris/rostut/build/examples_rclcpp_minimal_client -- -j20 -l20
+[81.912s] Invoking command in '/home/chris/rostut/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chris/rostut/build/examples_rclcpp_minimal_client
+[81.936s] -- Install configuration: ""
+[81.950s] -- Execute custom install script
+[81.950s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_client/lib/examples_rclcpp_minimal_client/client_main
+[81.971s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_client
+[81.998s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_client
+[82.006s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.sh
+[82.029s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.dsv
+[82.039s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.sh
+[82.061s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.dsv
+[82.067s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.bash
+[82.092s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.sh
+[82.116s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.zsh
+[82.152s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.dsv
+[82.168s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.dsv
+[82.179s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_client
+[82.194s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig.cmake
+[82.217s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig-version.cmake
+[82.228s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.xml

@@ -1,0 +1,19 @@
+[0.035s] Invoking command in '/home/chris/rostut/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/chris/rostut/build/cpp_parameter_event_handler -- -j20 -l20
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target parameter_event_handler[0m
+[0.065s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o[0m
+[1.136s] [01m[K/home/chris/rostut/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:30:3:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+[1.136s]    30 |   [01;31m[Kauto[m[K cb2 = [this](const rclcpp::Parameter & p) {
+[1.136s]       |   [01;31m[K^~~~[m[K
+[1.136s] [01m[K/home/chris/rostut/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:37:3:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+[1.136s]    37 |   [01;31m[Kauto[m[K remote_node_name = std::string("parameter_blackboard");
+[1.136s]       |   [01;31m[K^~~~[m[K
+[1.136s] [01m[K/home/chris/rostut/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:38:3:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+[1.136s]    38 |   [01;31m[Kauto[m[K remote_param_name = std::string("a_double_param");
+[1.136s]       |   [01;31m[K^~~~[m[K
+[1.137s] [01m[K/home/chris/rostut/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:39:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcb_handle2_[m[K’ does not name a type
+[1.137s]    39 |   [01;31m[Kcb_handle2_[m[K = param_subscriber_->add_parameter_callback(remote_param_name, cb2, remote_node_name);
+[1.137s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.320s] gmake[2]: *** [CMakeFiles/parameter_event_handler.dir/build.make:76: CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o] Error 1
+[2.320s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/parameter_event_handler.dir/all] Error 2
+[2.321s] gmake: *** [Makefile:146: all] Error 2
+[2.322s] Invoked command in '/home/chris/rostut/build/cpp_parameter_event_handler' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/rostut/install/launch_testing_examples:/home/chris/rostut/install/examples_rclpy_pointcloud_publisher:/home/chris/rostut/install/examples_rclpy_minimal_subscriber:/home/chris/rostut/install/examples_rclpy_minimal_service:/home/chris/rostut/install/examples_rclpy_minimal_publisher:/home/chris/rostut/install/examples_rclpy_minimal_client:/home/chris/rostut/install/examples_rclpy_minimal_action_server:/home/chris/rostut/install/examples_rclpy_minimal_action_client:/home/chris/rostut/install/examples_rclpy_guard_conditions:/home/chris/rostut/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/chris/rostut/build/cpp_parameter_event_handler -- -j20 -l20

@@ -1,0 +1,14 @@
+[0.237s] Invoking command in '/home/chris/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/chris/ros2_ws/install/launch_testing_examples:/home/chris/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/chris/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/chris/ros2_ws/install/examples_rclpy_minimal_service:/home/chris/ros2_ws/install/examples_rclpy_minimal_publisher:/home/chris/ros2_ws/install/examples_rclpy_minimal_client:/home/chris/ros2_ws/install/examples_rclpy_minimal_action_server:/home/chris/ros2_ws/install/examples_rclpy_minimal_action_client:/home/chris/ros2_ws/install/examples_rclpy_guard_conditions:/home/chris/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros2_ws/build/examples_rclcpp_wait_set -- -j20 -l20
+[1.000s] [  8%] Built target talker
+[1.001s] [ 16%] Built target listener
+[1.001s] [ 25%] Built target wait_set_listener
+[1.002s] [ 33%] Built target wait_set_talker
+[1.002s] [ 41%] Built target wait_set
+[1.002s] [ 50%] Built target thread_safe_wait_set
+[1.002s] [ 58%] Built target static_wait_set
+[1.003s] [ 66%] Built target wait_set_random_order
+[1.003s] [ 75%] Built target wait_set_topics_with_different_rates
+[1.003s] [ 83%] Built target wait_set_topics_and_timer
+[1.003s] [ 91%] Built target wait_set_composed
+[1.004s] [100%] Built target executor_random_order
+[1.015s] Invoked command in '/home/chris/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/chris/ros2_ws/install/launch_testing_examples:/home/chris/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/chris/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/chris/ros2_ws/install/examples_rclpy_minimal_service:/home/chris/ros2_ws/install/examples_rclpy_minimal_publisher:/home/chris/ros2_ws/install/examples_rclpy_minimal_client:/home/chris/ros2_ws/install/examples_rclpy_minimal_action_server:/home/chris/ros2_ws/install/examples_rclpy_minimal_action_client:/home/chris/ros2_ws/install/examples_rclpy_guard_conditions:/home/chris/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros2_ws/build/examples_rclcpp_wait_set -- -j20 -l20

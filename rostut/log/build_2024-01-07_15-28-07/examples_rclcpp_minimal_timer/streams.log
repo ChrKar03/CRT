@@ -1,0 +1,76 @@
+[0.415s] Invoking command in '/home/chris/rostut/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chris/rostut/src/examples/rclcpp/timers/minimal_timer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/rostut/install/examples_rclcpp_minimal_timer
+[2.161s] -- The C compiler identification is GNU 11.4.0
+[2.161s] -- The CXX compiler identification is GNU 11.4.0
+[2.161s] -- Detecting C compiler ABI info
+[2.161s] -- Detecting C compiler ABI info - done
+[2.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.161s] -- Detecting C compile features
+[2.161s] -- Detecting C compile features - done
+[2.161s] -- Detecting CXX compiler ABI info
+[2.161s] -- Detecting CXX compiler ABI info - done
+[2.161s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.161s] -- Detecting CXX compile features
+[2.161s] -- Detecting CXX compile features - done
+[2.161s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.162s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.162s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.162s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[2.162s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.162s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.162s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.162s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.162s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.162s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.162s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.162s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.162s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.162s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.162s] -- Looking for pthread.h
+[2.162s] -- Looking for pthread.h - found
+[2.162s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.162s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.163s] -- Found Threads: TRUE  
+[2.163s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.163s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.163s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.163s] -- Configured cppcheck include dirs: 
+[2.163s] -- Configured cppcheck exclude dirs and/or files: 
+[2.163s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.163s] -- Configured cpplint exclude dirs and/or files: 
+[2.163s] -- Added test 'lint_cmake' to check CMake code style
+[2.163s] -- Added test 'uncrustify' to check C / C++ code style
+[2.163s] -- Configured uncrustify additional arguments: 
+[2.163s] -- Added test 'xmllint' to check XML markup files
+[2.163s] -- Configuring done
+[2.163s] -- Generating done
+[2.164s] -- Build files have been written to: /home/chris/rostut/build/examples_rclcpp_minimal_timer
+[2.171s] Invoked command in '/home/chris/rostut/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chris/rostut/src/examples/rclcpp/timers/minimal_timer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/rostut/install/examples_rclcpp_minimal_timer
+[2.172s] Invoking command in '/home/chris/rostut/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chris/rostut/build/examples_rclcpp_minimal_timer -- -j20 -l20
+[2.186s] [ 25%] [32mBuilding CXX object CMakeFiles/timer_member_function.dir/member_function.cpp.o[0m
+[2.193s] [ 50%] [32mBuilding CXX object CMakeFiles/timer_lambda.dir/lambda.cpp.o[0m
+[77.592s] [ 75%] [32m[1mLinking CXX executable timer_member_function[0m
+[77.845s] [100%] [32m[1mLinking CXX executable timer_lambda[0m
+[77.938s] [100%] Built target timer_member_function
+[78.166s] [100%] Built target timer_lambda
+[78.271s] Invoked command in '/home/chris/rostut/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chris/rostut/build/examples_rclcpp_minimal_timer -- -j20 -l20
+[80.156s] Invoking command in '/home/chris/rostut/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chris/rostut/build/examples_rclcpp_minimal_timer
+[80.220s] -- Install configuration: ""
+[80.220s] -- Execute custom install script
+[80.220s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[80.220s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[80.220s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[80.233s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[80.272s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[80.285s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+[80.300s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[80.313s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+[80.323s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[80.350s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[80.387s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[80.412s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+[80.427s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+[80.448s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[80.477s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[80.528s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[80.552s] -- Symlinking: /home/chris/rostut/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml
+[81.470s] Invoked command in '/home/chris/rostut/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chris/rostut/build/examples_rclcpp_minimal_timer

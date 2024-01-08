@@ -1,0 +1,13 @@
+[0.329s] Invoking command in '/home/chris/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/chris/ros2_ws/install/launch_testing_examples:/home/chris/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/chris/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/chris/ros2_ws/install/examples_rclpy_minimal_service:/home/chris/ros2_ws/install/examples_rclpy_minimal_publisher:/home/chris/ros2_ws/install/examples_rclpy_minimal_client:/home/chris/ros2_ws/install/examples_rclpy_minimal_action_server:/home/chris/ros2_ws/install/examples_rclpy_minimal_action_client:/home/chris/ros2_ws/install/examples_rclpy_guard_conditions:/home/chris/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j20 -l20
+[1.103s] [  8%] Built target subscriber_lambda
+[1.103s] [ 16%] Built target subscriber_member_function
+[1.103s] [ 25%] Built target subscriber_member_function_with_type_adapter
+[1.103s] [ 33%] Built target subscriber_member_function_with_topic_statistics
+[1.103s] [ 41%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[1.103s] [ 50%] Built target subscriber_content_filtering
+[1.103s] [ 58%] Built target subscriber_not_composable
+[1.103s] [ 75%] Built target wait_set_subscriber_library
+[1.103s] [ 83%] Built target wait_set_subscriber
+[1.103s] [ 91%] Built target static_wait_set_subscriber
+[1.103s] [100%] Built target time_triggered_wait_set_subscriber
+[1.117s] Invoked command in '/home/chris/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chris/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/chris/ros2_ws/install/launch_testing_examples:/home/chris/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/chris/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/chris/ros2_ws/install/examples_rclpy_minimal_service:/home/chris/ros2_ws/install/examples_rclpy_minimal_publisher:/home/chris/ros2_ws/install/examples_rclpy_minimal_client:/home/chris/ros2_ws/install/examples_rclpy_minimal_action_server:/home/chris/ros2_ws/install/examples_rclpy_minimal_action_client:/home/chris/ros2_ws/install/examples_rclpy_guard_conditions:/home/chris/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j20 -l20

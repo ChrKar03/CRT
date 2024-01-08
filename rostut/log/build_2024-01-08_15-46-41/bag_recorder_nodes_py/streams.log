@@ -1,0 +1,40 @@
+[0.401s] Invoking command in '/home/chris/rostut/src/bag_recorder_nodes_py': PYTHONPATH=/home/chris/rostut/build/bag_recorder_nodes_py/prefix_override:/home/chris/rostut/install/bag_recorder_nodes_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bag_recorder_nodes_py build --build-base /home/chris/rostut/build/bag_recorder_nodes_py/build install --record /home/chris/rostut/build/bag_recorder_nodes_py/install.log --single-version-externally-managed
+[0.526s] running egg_info
+[0.526s] creating ../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info
+[0.526s] writing ../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/PKG-INFO
+[0.526s] writing dependency_links to ../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/dependency_links.txt
+[0.526s] writing entry points to ../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/entry_points.txt
+[0.526s] writing requirements to ../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/requires.txt
+[0.526s] writing top-level names to ../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/top_level.txt
+[0.527s] writing manifest file '../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/SOURCES.txt'
+[0.527s] reading manifest file '../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/SOURCES.txt'
+[0.527s] adding license file 'LICENSE'
+[0.528s] writing manifest file '../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info/SOURCES.txt'
+[0.528s] running build
+[0.528s] running build_py
+[0.528s] creating /home/chris/rostut/build/bag_recorder_nodes_py/build
+[0.528s] creating /home/chris/rostut/build/bag_recorder_nodes_py/build/lib
+[0.528s] creating /home/chris/rostut/build/bag_recorder_nodes_py/build/lib/bag_recorder_nodes_py
+[0.528s] copying bag_recorder_nodes_py/simple_bag_recorder.py -> /home/chris/rostut/build/bag_recorder_nodes_py/build/lib/bag_recorder_nodes_py
+[0.528s] copying bag_recorder_nodes_py/__init__.py -> /home/chris/rostut/build/bag_recorder_nodes_py/build/lib/bag_recorder_nodes_py
+[0.528s] running install
+[0.528s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.528s]   warnings.warn(
+[0.528s] running install_lib
+[0.528s] creating /home/chris/rostut/install/bag_recorder_nodes_py/lib/python3.10/site-packages/bag_recorder_nodes_py
+[0.528s] copying /home/chris/rostut/build/bag_recorder_nodes_py/build/lib/bag_recorder_nodes_py/simple_bag_recorder.py -> /home/chris/rostut/install/bag_recorder_nodes_py/lib/python3.10/site-packages/bag_recorder_nodes_py
+[0.528s] copying /home/chris/rostut/build/bag_recorder_nodes_py/build/lib/bag_recorder_nodes_py/__init__.py -> /home/chris/rostut/install/bag_recorder_nodes_py/lib/python3.10/site-packages/bag_recorder_nodes_py
+[0.529s] byte-compiling /home/chris/rostut/install/bag_recorder_nodes_py/lib/python3.10/site-packages/bag_recorder_nodes_py/simple_bag_recorder.py to simple_bag_recorder.cpython-310.pyc
+[0.529s] byte-compiling /home/chris/rostut/install/bag_recorder_nodes_py/lib/python3.10/site-packages/bag_recorder_nodes_py/__init__.py to __init__.cpython-310.pyc
+[0.529s] running install_data
+[0.529s] creating /home/chris/rostut/install/bag_recorder_nodes_py/share/ament_index
+[0.529s] creating /home/chris/rostut/install/bag_recorder_nodes_py/share/ament_index/resource_index
+[0.529s] creating /home/chris/rostut/install/bag_recorder_nodes_py/share/ament_index/resource_index/packages
+[0.529s] copying resource/bag_recorder_nodes_py -> /home/chris/rostut/install/bag_recorder_nodes_py/share/ament_index/resource_index/packages
+[0.529s] copying package.xml -> /home/chris/rostut/install/bag_recorder_nodes_py/share/bag_recorder_nodes_py
+[0.529s] running install_egg_info
+[0.530s] Copying ../../build/bag_recorder_nodes_py/bag_recorder_nodes_py.egg-info to /home/chris/rostut/install/bag_recorder_nodes_py/lib/python3.10/site-packages/bag_recorder_nodes_py-0.0.0-py3.10.egg-info
+[0.531s] running install_scripts
+[0.543s] Installing simple_bag_recorder script to /home/chris/rostut/install/bag_recorder_nodes_py/lib/bag_recorder_nodes_py
+[0.543s] writing list of installed files to '/home/chris/rostut/build/bag_recorder_nodes_py/install.log'
+[0.556s] Invoked command in '/home/chris/rostut/src/bag_recorder_nodes_py' returned '0': PYTHONPATH=/home/chris/rostut/build/bag_recorder_nodes_py/prefix_override:/home/chris/rostut/install/bag_recorder_nodes_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bag_recorder_nodes_py build --build-base /home/chris/rostut/build/bag_recorder_nodes_py/build install --record /home/chris/rostut/build/bag_recorder_nodes_py/install.log --single-version-externally-managed
